@@ -1,0 +1,32 @@
+body {
+  background: var(--bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #picture-holder {
+    position: relative;
+    text-align: center;
+  }
+
+  #picture-holder::after {
+    box-shadow: inset 0 -30dvw 50dvw 0 var(--bg);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  #main-picture {
+    max-width: 100%;
+    width: auto;
+  }
+}

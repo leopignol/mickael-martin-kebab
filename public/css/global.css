@@ -1,20 +1,36 @@
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/great-vibes@5.3.0/latin.css');
+@import url('fonts.css');
+/*@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Anton+SC&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inspiration&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nanum+Myeongjo&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');*/
+
 :root {
+  /*color-scheme: light dark;*/
   --accent: #E0C7AE;
   --bg: #EDE8D0;
   --bg-alt: #C4AD95;
-  --text: var(--accent);
+  --bg-text: #80674E;
+  --shadow: #A19D8D;
+  --text: #000;
   scroll-behavior: smooth;
+  interpolate-size: allow-keywords;
 }
 
 body {
-  background-color: var(--bg);
   background: linear-gradient(to bottom right, var(--bg), var(--bg-alt));
   background-repeat: no-repeat;
-  background-attachment: fixed;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Antic Didone', serif;
   user-select: none;
+}
+
+site-header {
+  display: block;
+  min-height: 5dvw;
+}
+
+site-footer {
+  display: block;
+  min-height: 4dvw;
 }
 
 .greek {
@@ -25,6 +41,10 @@ body {
 .turkish {
   font-family: 'Merriweather', serif;
   font-weight: 100;
+}
+
+.korean {
+  font-family: "Nanum Myeongjo", serif;
 }
 
 h1,
@@ -69,17 +89,23 @@ figure {
 #top-button {
   position: sticky;
   width: fit-content;
-  bottom: 0;
-
-  img {
-    border-radius: 50%;
-    width: 4dvw;
-  }
-
+  bottom: 0.5dvw;
+  left: 0.5dvw;
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.3s ease,
-  transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    display 0.3s allow-discrete;
+
+  a {
+    display: block;
+    width: 3.5dvw;
+    height: 3.5dvw;
+    font-size: 0;
+    background-image: url('/img/icons/arrow-light.svg');
+    background-size: contain;
+  }
 }
 
 #top-button[hidden] {
@@ -102,6 +128,7 @@ header {
   #title {
     font-family: "Inspiration", cursive;
     font-size: 4dvw;
+    text-shadow: -6px -2px 4px #00000032;
     color: #FFF;
   }
 
@@ -117,10 +144,11 @@ header {
       width: 100%;
       height: 100%;
       font-size: 1dvw;
-      color: var(--bg-alt);
+      color: var(--bg-text);
       font-weight: bold;
       justify-content: center;
       align-items: center;
+      font-style: italic;
     }
   }
 }
@@ -128,13 +156,23 @@ header {
 footer {
   display: flex;
   justify-content: space-around;
+  position: relative;
+  bottom: 0;
+  width: 100%;
   height: 4dvw;
   background-color: var(--accent);
+  font-size: 1.25dvw;
 
   >* {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: .5dvw;
     color: #000;
+  }
+
+  >*:not(#copyright) {
+    width: 23dvw;
   }
 }
 

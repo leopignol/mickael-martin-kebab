@@ -1,4 +1,4 @@
-const arrow = document.getElementById("top-button");
+const arrow = document.querySelector("top-button");
 
 updateArrow();
 
