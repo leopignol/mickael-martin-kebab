@@ -17,7 +17,13 @@
 
 		<main>
 			<section id="main-parts">
-				<div class="part">
+				<h2>Qui sommes nous ?</h2>
+				<img class="flame top"
+				     src="/img/flames/icon.svg"
+				     alt="Flame"
+				     loading="lazy"
+				>
+				<div class="part top">
 					<img src="/img/students/a.webp"
 					     alt="Homme se préparant à couper une broche à kebab"
 					     title="Ancien élève"
@@ -27,14 +33,14 @@
 						Nous sommes une entreprise spécialisée dans la formation au métier
 						de kebabier.
 						<br><br>
-						Notre objectif est de transmettre notre savoir-faire et notre
+						Notre objectif est de transmettre notre savoir–faire et notre
 						passion pour la restauration afin de former les futurs
 						professionnels du kebab.
 					</p>
 				</div>
-				<div class="part">
+				<div class="part bottom">
 					<p class="left allow-select">
-						<em><strong>Mickaël Martin Kebab</strong></em> n’est pas qu’une
+						<span class="stronger">Mickaël Martin Kebab</span> n’est pas qu’une
 						simple formation de kebabier ; c’est la meilleure formation
 						actuellement disponible en ligne pour devenir kebabier et ouvrir son
 						Kebab le plus rapidement possible dans n’importe quel pays, grâce à
@@ -46,20 +52,27 @@
 					     loading="lazy"
 					>
 				</div>
+				<img class="flame bottom"
+				     src="/img/flames/icon.svg"
+				     alt="Flame"
+				     loading="lazy"
+				>
 			</section>
 
 			<section id="main-formations">
-				<h2>Nos formations</h2>
+				<h2 id="nos-formations">Nos formations</h2>
 				<div id="formation">
 					<div>
 						<div class="background">
 							<img src="/img/books/green.svg"
-							     alt=""
+							     alt="Green book"
 							     loading="lazy"
 							>
 						</div>
 						<details>
-							<summary>Formation Kebab Simple</summary>
+							<summary id="formation-simple">
+								Formation Kebab Simple
+							</summary>
 							<p>
 								Description de la formation.<br>
 								Description de la formation.<br>
@@ -72,12 +85,14 @@
 					<div>
 						<div class="background">
 							<img src="/img/books/blue.svg"
-							     alt=""
+							     alt="Blue book"
 							     loading="lazy"
 							>
 						</div>
 						<details>
-							<summary>Formation Kebab Pro</summary>
+							<summary id="formation-pro">
+								Formation Kebab Pro
+							</summary>
 							<p>
 								Description de la formation.<br>
 								Description de la formation.<br>
@@ -90,12 +105,14 @@
 					<div>
 						<div class="background">
 							<img src="/img/books/red.svg"
-							     alt=""
+							     alt="Red book"
 							     loading="lazy"
 							>
 						</div>
 						<details>
-							<summary>Formation Kebab Pro Ultra</summary>
+							<summary id="formation-pro-ultra">
+								Formation Kebab Pro Ultra
+							</summary>
 							<p>
 								Description de la formation.<br>
 								Description de la formation.<br>
@@ -114,7 +131,7 @@
 					<div>
 						<div class="background">
 							<img src="/img/certification/customers.svg"
-							     alt=""
+							     alt="Satisfied customers"
 							     loading="lazy"
 							>
 						</div>
@@ -125,7 +142,7 @@
 					<div>
 						<div class="background">
 							<img src="/img/certification/flags.svg"
-							     alt=""
+							     alt="Flags of France, Italy and England"
 							     loading="lazy"
 							>
 						</div>
@@ -138,7 +155,7 @@
 					<div>
 						<div class="background">
 							<img src="/img/certification/chef.svg"
-							     alt=""
+							     alt="Satisfied chef"
 							     loading="lazy"
 							>
 						</div>
@@ -304,22 +321,27 @@
 						<div class="star-container">
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 						</div>
 						<img src="/img/profile-pictures/lucien.webp"
-						     alt=""
+						     alt="Lucien"
 						     loading="lazy"
 						>
 						<span class="description">Lucien, 54 ans</span>
@@ -330,22 +352,27 @@
 						<div class="star-container">
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-empty.svg"
-							     alt=""
+							     alt="Empty star"
+							     loading="lazy"
 							>
 						</div>
 						<img src="/img/profile-pictures/charles.webp"
-						     alt=""
+						     alt="Charles"
 						     loading="lazy"
 						>
 						<span class="description">Charles, 27 ans</span>
@@ -356,22 +383,27 @@
 						<div class="star-container">
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 						</div>
 						<img src="/img/profile-pictures/bernadette.webp"
-						     alt=""
+						     alt="Bernadette"
 						     loading="lazy"
 						>
 						<span class="description">Bernadette, 37 ans</span>
@@ -382,22 +414,27 @@
 						<div class="star-container">
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 							<img src="/img/icons/star-full.svg"
 							     alt="STAR"
+							     loading="lazy"
 							>
 						</div>
 						<img src="/img/profile-pictures/paulus.webp"
-						     alt=""
+						     alt="Paulus"
 						     loading="lazy"
 						>
 						<span class="description">Paulus, 31 ans</span>
@@ -406,13 +443,19 @@
 					</div>
 				</div>
 			</section>
+
+			<!--<img id="background-flame"
+			     src="/img/flames/hires.webp"
+			     alt="Flame"
+			     loading="lazy"
+			>-->
 		</main>
 
 		<top-button></top-button>
 
 		<site-footer></site-footer>
+		<script src="/js/about.js"></script>
 		<script src="/js/arrow.js"></script>
-		<script src="/js/reviews.js"></script>
 		<script src="/js/theme-changer.js"></script>
 	</body>
 </html>

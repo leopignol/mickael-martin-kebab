@@ -7,10 +7,22 @@ main {
   #main-parts {
     width: 50%;
 
+    .flame {
+      width: 50%;
+      visibility: var(--hidden-if-light);
+    }
+
+    .flame.top {
+      transform: translateY(0.5dvw);
+    }
+
+    .flame.bottom {
+      transform: translateY(-0.2dvw) translateX(100%) rotate(180deg);
+    }
+
     .part {
       width: 100%;
       display: grid;
-      margin-bottom: 2.5dvw;
       grid-auto-flow: column;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: center;
@@ -18,13 +30,21 @@ main {
 
       img {
         width: 100%;
-        border-radius: 3dvw;
+        border-radius: var(--part-image-radius);
+        border: var(--part-image-border);
+        z-index: 1;
       }
 
       p {
+        font-family: var(--part-text-font);
         width: 100%;
         margin: 0 10%;
         width: 80%;
+
+        .stronger {
+          font-style: var(--italic-if-light);
+          font-weight: 800;
+        }
       }
 
       .right {
@@ -35,11 +55,14 @@ main {
         text-align: left;
       }
     }
+
+    .part.top {
+      margin-bottom: 2.5dvw;
+    }
   }
 
   #main-formations {
     width: 70%;
-    height: 32dvw;
 
     #formation {
       display: grid;
@@ -68,7 +91,7 @@ main {
 
         details {
           width: 80%;
-          background-color: var(--shadow);
+          background: linear-gradient(to bottom right, var(--shadow), var(--shadow-darker));
           transform: translateY(-0.75dvw);
           border-radius: 0.75dvw;
 
@@ -76,6 +99,7 @@ main {
             display: flex;
             gap: 1dvw;
             justify-content: center;
+            font-size: 1.5dvw;
             list-style: none;
             text-align: center;
             cursor: pointer;
@@ -90,14 +114,18 @@ main {
             display: inline-block;
             visibility: hidden;
             font-size: 1dvw;
+            margin-left: 1dvw;
           }
 
           summary::after {
             content: "▶";
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 1dvw;
             rotate: -180deg;
             transition: rotate 0.35s ease;
+            margin-right: 1dvw;
           }
 
           p {
@@ -324,7 +352,7 @@ main {
 
         .occupation {
           margin-bottom: 1dvw;
-          color: #0000003C;
+          color: var(--occupation-text-color);
         }
 
         .comment {
@@ -336,5 +364,13 @@ main {
         }
       }
     }
+  }
+
+  #background-flame {
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+    bottom: 0;
+    right: 0;
   }
 }

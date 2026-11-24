@@ -2,12 +2,11 @@ const arrow = document.querySelector("top-button");
 
 updateArrow();
 
-document.addEventListener('scroll', updateArrow);
+document.addEventListener("scroll", updateArrow);
 
 function updateArrow() {
-  if (window.scrollY >= 400) {
+  if (window.scrollY > 0)
     arrow.hidden = false;
-  } else {
+  else
     arrow.hidden = true;
-  }
 }

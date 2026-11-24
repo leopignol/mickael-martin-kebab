@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<script src="/js/layout.js" defer></script>
-		<title>Mickael Martin Kebab – Aaron Ameur</title>
+		<title>Mickael Martin Kebab – Chef template</title>
 		<meta charset="utf-8">
 		<meta name="description" content="Mickael Martin Kebab">
 		<link rel="stylesheet" href="/css/global.css">
@@ -19,17 +19,20 @@
 			<h2>Aaron Ameur</h2>
 			<div id="picture-holder">
 				<img id="main-picture"
-				     src="/img/chefs/aaron-ameur.webp"
-				     alt=""
+				     src="https://placehold.co/1213x1296"
+				     alt="Aaron Ameur"
 				>
 			</div>
+
+			<p>
+				Notre mâitre kebabier le plus expérimenté.
+			</p>
 		</main>
 
 		<top-button></top-button>
 
 		<site-footer></site-footer>
 		<script src="/js/arrow.js"></script>
-		<script src="/js/reviews.js"></script>
 		<script src="/js/theme-changer.js"></script>
 	</body>
 </html>
