@@ -456,37 +456,36 @@ main {
       display: flex;
       flex-wrap: nowrap;
       gap: 3dvw;
+      padding: 0 5dvw;
       height: 20dvw;
       overflow: scroll;
       font-family: sans-serif;
 
-      .sponsor {
-        .sponsor-container {
-          width: 20dvw;
-          height: 100%;
+      .sponsor-container {
+        width: 20dvw;
+        height: 100%;
+        margin: 0;
+
+        .sponsor-name {
+          flex-shrink: 0;
+          height: 3dvw;
           margin: 0;
+        }
 
-          .sponsor-name {
-            flex-shrink: 0;
-            height: 3dvw;
-            margin: 0;
+        .sponsor-icon-container {
+          flex: 1 1 0;
+          min-height: 0;
+          flex-grow: 1;
+
+          .sponsor-icon {
+            object-fit: scale-down;
+            height: 100%;
           }
+        }
 
-          .sponsor-icon-container {
-            flex: 1 1 0;
-            min-height: 0;
-            flex-grow: 1;
-
-            .sponsor-icon {
-              object-fit: scale-down;
-              height: 100%;
-            }
-          }
-
-          .sponsor-description {
-            flex-shrink: 0;
-            height: 4dvw;
-          }
+        .sponsor-description {
+          flex-shrink: 0;
+          height: 6dvw;
         }
       }
     }

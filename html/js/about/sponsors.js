@@ -161,6 +161,7 @@ for (let sponsor of sponsors) {
 
   let image = document.createElement("img");
   image.classList.add("sponsor-icon");
+  image.loading = "lazy";
   image.src = sponsor.icon;
   image.alt = sponsor.name;
 
