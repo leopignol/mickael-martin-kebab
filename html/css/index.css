@@ -60,6 +60,9 @@ main {
           border: 1px solid #00000010;
           border-radius: 1dvw;
           background-color: var(--bg-alt);
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
 

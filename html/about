@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 	<head>
 		<script src="/js/layout.js" defer></script>
 		<title>Mickael Martin Kebab</title>
@@ -18,22 +19,14 @@
 		<main>
 			<section id="main-parts">
 				<h2>Qui sommes nous ?</h2>
-				<img class="flame top"
-				     src="/img/flames/icon.svg"
-				     alt="Flame"
-				     loading="lazy"
-				>
+				<img class="flame top" src="/img/flames/icon.svg" alt="Flame" loading="lazy">
 				<div class="part top">
-					<img src="/img/students/a.webp"
-					     alt="Homme se préparant à couper une broche à kebab"
-					     title="Ancien élève"
-					     loading="lazy"
-					>
+					<img src="/img/students/a.webp" alt="Homme se préparant à couper une broche à kebab" title="Ancien élève" loading="lazy">
 					<p class="right allow-select">
 						Nous sommes une entreprise spécialisée dans la formation au métier
 						de kebabier.
 						<br><br>
-						Notre objectif est de transmettre notre savoir–faire et notre
+						Notre objectif est de transmettre notre savoir&#x2013;faire et notre
 						passion pour la restauration afin de former les futurs
 						professionnels du kebab.
 					</p>
@@ -46,17 +39,9 @@
 						Kebab le plus rapidement possible dans n’importe quel pays, grâce à
 						notre diplôme reconnu mondialement.
 					</p>
-					<img src="/img/students/b.webp"
-					     alt="Homme avec un tablier &#8217;Grand Maître Kebabier&#8217;"
-					     title="Ancien élève"
-					     loading="lazy"
-					>
+					<img src="/img/students/b.webp" alt="Homme avec un tablier &#8217;Grand Maître Kebabier&#8217;" title="Ancien élève" loading="lazy">
 				</div>
-				<img class="flame bottom"
-				     src="/img/flames/icon.svg"
-				     alt="Flame"
-				     loading="lazy"
-				>
+				<img class="flame bottom" src="/img/flames/icon.svg" alt="Flame" loading="lazy">
 			</section>
 
 			<section id="main-formations">
@@ -64,10 +49,7 @@
 				<div id="formation">
 					<div>
 						<div class="background">
-							<img src="/img/books/green.svg"
-							     alt="Green book"
-							     loading="lazy"
-							>
+							<img src="/img/books/green.svg" alt="Green book" loading="lazy">
 						</div>
 						<details>
 							<summary id="formation-simple">
@@ -84,10 +66,7 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/books/blue.svg"
-							     alt="Blue book"
-							     loading="lazy"
-							>
+							<img src="/img/books/blue.svg" alt="Blue book" loading="lazy">
 						</div>
 						<details>
 							<summary id="formation-pro">
@@ -104,10 +83,7 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/books/red.svg"
-							     alt="Red book"
-							     loading="lazy"
-							>
+							<img src="/img/books/red.svg" alt="Red book" loading="lazy">
 						</div>
 						<details>
 							<summary id="formation-pro-ultra">
@@ -130,10 +106,7 @@
 				<div id="certification">
 					<div>
 						<div class="background">
-							<img src="/img/certification/customers.svg"
-							     alt="Satisfied customers"
-							     loading="lazy"
-							>
+							<img src="/img/certification/customers.svg" alt="Satisfied customers" loading="lazy">
 						</div>
 						<p>
 							98% des clients satisfaits
@@ -141,10 +114,7 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/certification/flags.svg"
-							     alt="Flags of France, Italy and England"
-							     loading="lazy"
-							>
+							<img src="/img/certification/flags.svg" alt="Flags of France, Italy and England" loading="lazy">
 						</div>
 						<p>
 							Formations disponibles
@@ -154,10 +124,7 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/certification/chef.svg"
-							     alt="Satisfied chef"
-							     loading="lazy"
-							>
+							<img src="/img/certification/chef.svg" alt="Satisfied chef" loading="lazy">
 						</div>
 						<p>
 							9,5 kebabiers sur 10
@@ -176,13 +143,9 @@
 					<div class="chef-section left">
 						<a href="/chefs/kim-min-jae">
 							<div class="chef-holder smudge-side">
-								<img src="/img/chefs/kim-min-jae.webp"
-								     alt="Kim Min-jae devant une broche à kebab"
-								     loading="lazy"
-								     class="red"
-								>
+								<img src="/img/chefs/kim-min-jae.webp" alt="Kim Min-jae devant une broche à kebab" loading="lazy" class="red">
 								<p class="allow-select">
-									<em>Kim Min-jae</em> (<span class="korean">김민재</span>)<br>
+									<em>Kim Min&#x2013;jae</em> (<span class="korean">김민재</span>)<br>
 									<span class="country">Corée du Nord</span>
 								</p>
 							</div>
@@ -191,11 +154,7 @@
 					<div class="chef-section center">
 						<a href="/chefs/aaron-ameur">
 							<div class="chef-holder">
-								<img src="/img/chefs/aaron-ameur.webp"
-								     alt="Aaron Ameur devant une broche à kebab"
-								     loading="lazy"
-								     class="green"
-								>
+								<img src="/img/chefs/aaron-ameur.webp" alt="Aaron Ameur devant une broche à kebab" loading="lazy" class="green">
 								<p class="allow-select">
 									<em>Aaron Ameur</em><br>
 									<span class="country">Algérie</span>
@@ -204,11 +163,7 @@
 						</a>
 						<a href="/chefs/sione-teo">
 							<div class="chef-holder smudge-center">
-								<img src="/img/chefs/sione-teo.webp"
-								     alt="Sione Teo devant une broche à kebab"
-								     loading="lazy"
-								     class="orange"
-								>
+								<img src="/img/chefs/sione-teo.webp" alt="Sione Teo devant une broche à kebab" loading="lazy" class="orange">
 								<p class="allow-select">
 									<em>Sione Teo</em><br>
 									<span class="country">Bhoutan</span>
@@ -219,13 +174,9 @@
 					<div class="chef-section right">
 						<a href="/chefs/jean-claude-ndayishimiye">
 							<div class="chef-holder smudge-side">
-								<img src="/img/chefs/jean-claude-ndayishimiye.webp"
-								     alt="Jean-Claude Ndayishimiye devant une broche à kebab"
-								     loading="lazy"
-								     class="white"
-								>
+								<img src="/img/chefs/jean-claude-ndayishimiye.webp" alt="Jean-Claude Ndayishimiye devant une broche à kebab" loading="lazy" class="white">
 								<p class="allow-select">
-									<em>Jean-Claude Ndayishimiye</em><br>
+									<em>Jean&#x2013;Claude Ndayishimiye</em><br>
 									<span class="country">Burundi</span>
 								</p>
 							</div>
@@ -241,29 +192,20 @@
 						<h3>Personnages marquants</h3>
 						<div class="people">
 							<figure>
-								<img src="/img/people/ekmegi-pita.webp"
-								     alt="Ekmeği Pita"
-								     loading="lazy"
-								>
+								<img src="/img/people/ekmegi-pita.webp" alt="Ekmeği Pita" loading="lazy">
 								<figcaption>
 									Peinture à l&#8217;encre de
 									<span class="turkish">Ekmeği&nbsp;Pita</span>
 								</figcaption>
 							</figure>
 							<figure>
-								<img src="/img/people/don-erkepap.webp"
-								     alt="Don Erkepap"
-								     loading="lazy"
-								>
+								<img src="/img/people/don-erkepap.webp" alt="Don Erkepap" loading="lazy">
 								<figcaption>
 									Mosaïque de <span class="turkish">Don&nbsp;Erkepap</span>
 								</figcaption>
 							</figure>
 							<figure>
-								<img src="/img/people/emre-facfut.webp"
-								     alt="Emre Façfut"
-								     loading="lazy"
-								>
+								<img src="/img/people/emre-facfut.webp" alt="Emre Façfut" loading="lazy">
 								<figcaption>
 									Photo de <span class="turkish">Emre&nbsp;Façfut</span>
 								</figcaption>
@@ -274,7 +216,7 @@
 						<p>
 							Le kebab serait apparu au XV<sup>e</sup> siècle dans un petit
 							village reculé de l&#8217;Empire Ottoman grâce à un cuisinier
-							nommé <span class="turkish">Ekmeği&nbsp;Pita</span>. Celui-ci
+							nommé <span class="turkish">Ekmeği&nbsp;Pita</span>. Celui&#x2013;ci
 							aurait eu l&#8217;idée de faire cuire de fines tranches de viande
 							sur une broche métallique, avant de les glisser dans un pain plat
 							accompagné de quelques légumes. La recette aurait rapidement
@@ -290,8 +232,8 @@
 							ouvriers allemands.
 							<br><br>
 							Au cours des décennies suivantes, le sandwich se répand
-							progressivement en Europe, notamment en Autriche, aux Pays-Bas et
-							en Grèce, où différentes variantes apparaissent. Certains
+							progressivement en Europe, notamment en Autriche, aux Pays&#x2013;
+							Bas et en Grèce, où différentes variantes apparaissent. Certains
 							restaurateurs remplacent même la viande traditionnelle par du
 							porc, provoquant quelques débats culinaires.*
 							<br><br>
@@ -319,124 +261,52 @@
 				<div id="reviews">
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
 						</div>
-						<img src="/img/profile-pictures/lucien.webp"
-						     alt="Lucien"
-						     loading="lazy"
-						>
+						<img src="/img/profile-pictures/lucien.webp" alt="Lucien" loading="lazy">
 						<span class="description">Lucien, 54 ans</span>
 						<span class="occupation">Chef de chantier</span>
 						<span class="comment allow-select">"J&#8217;accepte le challenge"</span>
 					</div>
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-empty.svg"
-							     alt="Empty star"
-							     loading="lazy"
-							>
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-empty.svg" alt="Empty star" loading="lazy">
 						</div>
-						<img src="/img/profile-pictures/charles.webp"
-						     alt="Charles"
-						     loading="lazy"
-						>
+						<img src="/img/profile-pictures/charles.webp" alt="Charles" loading="lazy">
 						<span class="description">Charles, 27 ans</span>
 						<span class="occupation">Kebabier chez Kebab Market</span>
 						<span class="comment allow-select">"Difisil de dire non"</span>
 					</div>
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
 						</div>
-						<img src="/img/profile-pictures/bernadette.webp"
-						     alt="Bernadette"
-						     loading="lazy"
-						>
+						<img src="/img/profile-pictures/bernadette.webp" alt="Bernadette" loading="lazy">
 						<span class="description">Bernadette, 37 ans</span>
 						<span class="occupation">Enseignante en école primaire</span>
 						<span class="comment allow-select">"J&#8217;en suis absolument capable!"</span>
 					</div>
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
-							<img src="/img/icons/star-full.svg"
-							     alt="STAR"
-							     loading="lazy"
-							>
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
 						</div>
-						<img src="/img/profile-pictures/paulus.webp"
-						     alt="Paulus"
-						     loading="lazy"
-						>
+						<img src="/img/profile-pictures/paulus.webp" alt="Paulus" loading="lazy">
 						<span class="description">Paulus, 31 ans</span>
 						<span class="occupation">Chômage</span>
 						<span class="comment allow-select">"Oui&nbsp;!"</span>
@@ -444,17 +314,18 @@
 				</div>
 			</section>
 
-			<!--<img id="background-flame"
-			     src="/img/flames/hires.webp"
-			     alt="Flame"
-			     loading="lazy"
-			>-->
+			<section id="main-sponsors">
+				<h2>Nos sponsors</h2>
+				<div id="sponsors"></div>
+			</section>
 		</main>
 
 		<top-button></top-button>
 
 		<site-footer></site-footer>
-		<script src="/js/about.js"></script>
+		<script src="/js/about/formation.js"></script>
+		<script src="/js/about/sponsors.js"></script>
+		<script src="/js/about/sponsorsScroller.js"></script>
 		<script src="/js/arrow.js"></script>
 		<script src="/js/theme-changer.js"></script>
 	</body>

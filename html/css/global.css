@@ -1,5 +1,6 @@
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/great-vibes@5.3.0/latin.css");
 @import url("fonts.css");
+@import url("header.css");
+@import url("footer.css");
 /*@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Anton+SC&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inspiration&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nanum+Myeongjo&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");*/
 
 :root {
@@ -18,6 +19,7 @@
   --bg: #EDE8D0;
   --bg-alt: #C4AD95;
   --bg-text: #80674E;
+  --body-font: "Antic Didone", serif;
   --borders: var(--accent);
   --occupation-text-color: #0000003C;
   --part-image-border: none;
@@ -29,10 +31,14 @@
   --pill-shading: inset 3px 3px 5.7px #00000032;
   --pill-text-font: var(--text-font);
   --pill-text-style: italic;
+  --subtitle-font: var(--body-font);
   --text: #000;
   --title-emphasis: unset;
   --title-font: "Inspiration", cursive;
   --title-size: 4dvw;
+
+  --none-if-light: none;
+  --none-if-dark: unset;
 
   --hidden-if-light: hidden;
   --hidden-if-dark: visible;
@@ -46,21 +52,26 @@
   --bg: #332F2B;
   --bg-alt: #231F1B;
   --bg-text: #DDDDDD;
-  --border: #55493980;
+  --body-font: "Fuego Fatuo", sans-serif;
+  --borders: #55493980;
   --occupation-text-color: #FFFFFF3C;
   --part-image-border: 0.5dvw solid var(--part-image-color);
   --part-image-color: #EBB10C;
   --part-image-radius: 0;
-  --part-text-font: var(--title-font);
+  --part-text-font: var(--body-font);
   --pill-color: #D58823;
   --pill-radius: 0;
   --pill-shading: none;
-  --pill-text-font: var(--title-font);
+  --pill-text-font: var(--body-font);
   --pill-text-style: none;
+  --subtitle-font: var(--body-font);
   --text: #FFF;
   --title-emphasis: "🔥";
-  --title-font: "Fuego Fatuo", sans-serif;
+  --title-font: var(--body-font);
   --title-size: 3dvw;
+
+  --none-if-light: unset;
+  --none-if-dark: none;
 
   --hidden-if-light: visible;
   --hidden-if-dark: hidden;
@@ -72,22 +83,18 @@
 
 body {
   min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(to bottom right, var(--bg), var(--bg-alt));
   background-repeat: no-repeat;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Antic Didone", serif;
+  font-family: var(--body-font);
   user-select: none;
-}
 
-site-header {
-  display: block;
-  min-height: 5dvw;
-}
-
-site-footer {
-  display: block;
-  min-height: 4dvw;
+  main {
+    flex-grow: 1;
+  }
 }
 
 .greek {
@@ -119,6 +126,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+  font-family: var(--subtitle-font);
 }
 
 a {
@@ -173,126 +181,6 @@ figure {
 
 .allow-select {
   user-select: text;
-}
-
-header {
-  height: 5dvw;
-  background-color: var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5dvw;
-
-  #header-image {
-    width: 100%;
-    position: absolute;
-    opacity: 0.2;
-    background-clip: padding-box;
-    z-index: -1;
-  }
-
-  #title {
-    font-family: var(--title-font);
-    font-size: var(--title-size);
-    text-shadow: -6px -2px 4px #00000032;
-    color: #FFF;
-
-    .emphased {
-      text-emphasis: var(--title-emphasis);
-    }
-  }
-
-  .pill {
-    width: 7.7dvw;
-    height: 2.3dvw;
-    background-color: var(--pill-color);
-    border-radius: var(--pill-radius);
-    box-shadow: var(--pill-shading);
-
-    a {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      font-family: var(--pill-text-font);
-      font-size: 1dvw;
-      color: var(--bg-text);
-      font-weight: bold;
-      justify-content: center;
-      align-items: center;
-      font-style: var(--pill-text-style);
-    }
-  }
-
-  #toggle-theme {
-    position: absolute;
-    top: 1.75dvw;
-    right: 1.75dvw;
-    display: block;
-    width: 3dvw;
-    height: 1.5dvw;
-
-    input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    input:checked+.slider:before {
-      -webkit-transform: translateX(1.5dvw);
-      -ms-transform: translateX(1.5dvw);
-      transform: translateX(1.5dvw);
-    }
-
-    .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      border-radius: 1.5dvw;
-      background-color: var(--bg);
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
-    }
-
-
-    .slider:before {
-      position: absolute;
-      left: 0.255dvw;
-      bottom: 0.255dvw;
-      content: "";
-      height: 1.05dvw;
-      width: 1.05dvw;
-      border-radius: 50%;
-      background-color: white;
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
-    }
-  }
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 4dvw;
-  background-color: var(--border);
-  font-size: 1.25dvw;
-
-  >* {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5dvw;
-    color: #000;
-  }
-
-  >*:not(#copyright) {
-    width: 23dvw;
-  }
 }
 
 @starting-style {
