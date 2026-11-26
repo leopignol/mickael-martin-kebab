@@ -2,9 +2,9 @@
 <html lang="fr">
 	<head>
 		<script src="/js/layout.js" defer></script>
-		<title>Mickael Martin Kebab – Nos chefs</title>
+		<title>Mickaël Martin Kebab – Nos chefs</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Mickael Martin Kebab">
+		<meta name="description" content="Mickaël Martin Kebab">
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/chefs.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">

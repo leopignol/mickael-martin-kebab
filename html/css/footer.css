@@ -10,7 +10,14 @@ site-footer {
     width: 100%;
     height: 4dvw;
     background-color: var(--borders);
-    font-size: 1.25dvw;
+    /*font-size: 1.25dvw;*/
+
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      flex-direction: column;
+      height: auto;
+      padding: 2.5dvw 0;
+      gap: 2.5dvw;
+    }
 
     >* {
       display: flex;
@@ -21,6 +28,10 @@ site-footer {
 
     >*:not(#copyright) {
       width: 23dvw;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        width: unset;
+      }
     }
   }
 }

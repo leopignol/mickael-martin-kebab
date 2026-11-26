@@ -7,15 +7,16 @@
   --shadow: #A19D8D;
   --shadow-darker: #716F66;
 
+  background-color: var(--bg);
   color-scheme: light dark;
   scroll-behavior: smooth;
-  interpolate-size: allow-keywords;
 
   transition: all 0.3s ease;
 }
 
 :root[style*="color-scheme: light"] {
   --accent: #E0C7AE;
+  --arrow: url("/img/icons/arrow-light.svg");
   --bg: #EDE8D0;
   --bg-alt: #C4AD95;
   --bg-text: #80674E;
@@ -27,7 +28,7 @@
   --part-image-radius: 4dvw;
   --part-text-font: unset;
   --pill-color: var(--bg);
-  --pill-radius: 1dvw;
+  --pill-radius: 9999px;
   --pill-shading: inset 3px 3px 5.7px #00000032;
   --pill-text-font: var(--text-font);
   --pill-text-style: italic;
@@ -35,7 +36,7 @@
   --text: #000;
   --title-emphasis: unset;
   --title-font: "Inspiration", cursive;
-  --title-size: 4dvw;
+  --title-size: 3rem;
 
   --none-if-light: none;
   --none-if-dark: unset;
@@ -49,6 +50,7 @@
 
 :root[style*="color-scheme: dark"] {
   --accent: #554939;
+  --arrow: url("/img/icons/arrow-dark.svg");
   --bg: #332F2B;
   --bg-alt: #231F1B;
   --bg-text: #DDDDDD;
@@ -68,7 +70,7 @@
   --text: #FFF;
   --title-emphasis: "🔥";
   --title-font: var(--body-font);
-  --title-size: 3dvw;
+  --title-size: 2rem;
 
   --none-if-light: unset;
   --none-if-dark: none;
@@ -104,7 +106,7 @@ body {
 
 .turkish {
   font-family: "Merriweather", serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .korean {
@@ -134,9 +136,16 @@ a {
   color: var(--text);
 }
 
-p,
+/*p,
 a {
   font-size: 1.25dvw;
+}*/
+
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 figure {
@@ -151,41 +160,50 @@ figure {
   }
 }
 
-#top-button {
+top-button {
+  align-self: start;
   position: sticky;
-  width: fit-content;
-  bottom: 0.5dvw;
-  left: 0.5dvw;
-  opacity: 1;
-  transform: translateY(0);
-  transition:
-    opacity 0.3s ease,
-    transform 0.3s ease,
-    display 0.3s allow-discrete;
 
-  a {
-    display: block;
-    width: 3.5dvw;
-    height: 3.5dvw;
-    font-size: 0;
-    background-image: light-dark(url("/img/icons/arrow-light.svg"),
-        url("/img/icons/arrow-dark.svg"));
-    background-size: contain;
+  #top-button {
+    width: fit-content;
+    bottom: 0.5dvw;
+    left: 0.5dvw;
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
+
+    a {
+      display: block;
+      width: 3.5dvw;
+      height: 3.5dvw;
+      font-size: 0;
+      background-image: var(--arrow);
+      background-size: contain;
+    }
+
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      a {
+        width: 10dvw;
+        height: 10dvw;
+      }
+    }
   }
-}
 
-#top-button[hidden] {
-  opacity: 0;
-  transform: translateY(-10px);
+  #top-button[hidden] {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  @starting-style {
+    #top-button:not([hidden]) {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
 }
 
 .allow-select {
   user-select: text;
-}
-
-@starting-style {
-  #top-button:not([hidden]) {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
 }

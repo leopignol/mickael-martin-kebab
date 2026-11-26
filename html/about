@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 	<head>
 		<script src="/js/layout.js" defer></script>
-		<title>Mickael Martin Kebab</title>
+		<title>Mickaël Martin Kebab – About Us</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Mickael Martin Kebab">
+		<meta name="description" content="Mickaël Martin Kebab">
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/about.css">
+		<link rel="icon" href="/img/icons/favicon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<!--<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Anton+SC&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inspiration&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nanum+Myeongjo&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">-->
 	</head>
 
 	<body>
@@ -88,7 +88,7 @@
 							</summary>
 							<p>
 								"2400.0000€" avantages du pro + accès à la formation en livre
-								(si demandée via notre centre de formation en chine) en 22
+								(si demandée via notre centre de formation en chine) en 67
 								langues + droit d'utilisation de notre nom dans vos kebabs
 								ouverts et 60% des bénéfices envoyés à notre société + un de nos
 								4 experts pourra se déplacer pour vous apprendre (à vos frais +
@@ -117,7 +117,7 @@
 						<p>
 							Formations disponibles
 							<br>
-							en 22 langues
+							en 67 langues
 						</p>
 					</div>
 					<div>
@@ -134,9 +134,11 @@
 			</section>
 
 			<section id="main-chefs">
-				<a href="/chefs">
-					<h2>Formateurs venus des 4 coins du monde</h2>
-				</a>
+				<h2>
+					<a href="/chefs">
+						Formateurs venus des 4 coins du monde
+					</a>
+				</h2>
 				<div id="chefs">
 					<div class="chef-section left">
 						<a href="/chefs/kim-min-jae">

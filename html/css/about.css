@@ -7,13 +7,15 @@ main {
   #main-parts {
     width: 50%;
 
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      width: 90%;
+    }
+
     .flame {
       width: 50%;
       visibility: var(--hidden-if-light);
-    }
 
-    @media only screen and (max-width: 700px) {
-      .flame {
+      @media only screen and (max-aspect-ratio: 1 / 1) {
         width: 100%;
       }
     }
@@ -25,10 +27,8 @@ main {
 
     .flame.bottom {
       transform: translateY(-0.2dvw) translateX(100%) rotate(180deg);
-    }
 
-    @media only screen and (max-width: 700px) {
-      .flame.bottom {
+      @media only screen and (max-aspect-ratio: 1 / 1) {
         transform: unset;
       }
     }
@@ -40,6 +40,14 @@ main {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: center;
       justify-items: center;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        display: flex;
+        flex-direction: column;
+        grid-auto-flow: unset;
+        grid-template-columns: unset;
+        gap: 5dvw;
+      }
 
       img {
         width: 100%;
@@ -69,26 +77,40 @@ main {
       }
     }
 
-    @media only screen and (max-width: 700px) {
+    .part.top {
+      margin-bottom: 2.5dvw;
 
-      .part {
-        grid-template-rows: repeat(3, minmax(0, 1fr));
-        grid-template-columns: unset;
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        flex-direction: column;
+        margin-bottom: 5dvw;
       }
     }
 
-    .part.top {
-      margin-bottom: 2.5dvw;
+    .part.bottom {
+      margin-top: 1.25dvw;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        flex-direction: column-reverse;
+      }
     }
   }
 
   #main-formations {
     width: 70%;
 
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      width: 100%;
+    }
+
     #formation {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       justify-content: center;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+        grid-template-columns: unset;
+      }
 
       >div {
         display: flex;
@@ -120,7 +142,7 @@ main {
             display: flex;
             gap: 1dvw;
             justify-content: center;
-            font-size: 1.5dvw;
+            /*font-size: 1.5dvw;*/
             list-style: none;
             text-align: center;
             cursor: pointer;
@@ -134,7 +156,7 @@ main {
             content: "▶";
             display: inline-block;
             visibility: hidden;
-            font-size: 1dvw;
+            /*font-size: 1dvw;*/
             margin-left: 1dvw;
           }
 
@@ -143,7 +165,7 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1dvw;
+            /*font-size: 1dvw;*/
             rotate: -180deg;
             transition: rotate 0.35s ease;
             margin-right: 1dvw;
@@ -151,7 +173,7 @@ main {
 
           p {
             text-align: center;
-            font-size: 1.2dvw;
+            /*font-size: 1.2dvw;*/
             margin: 0;
             padding: 1dvw 0;
           }
@@ -167,8 +189,7 @@ main {
           padding-inline: 1rem;
           transition:
             block-size 0.35s ease,
-            opacity 0.35s ease,
-            content-visibility 0.35s allow-discrete;
+            opacity 0.35s ease;
         }
 
         details[open]::details-content {
@@ -177,23 +198,26 @@ main {
         }
       }
     }
-
-    @media only screen and (max-width: 700px) {
-
-      #formation {
-        grid-template-rows: repeat(3, minmax(0, 1fr));
-        grid-template-columns: unset;
-      }
-    }
   }
 
   #main-certification {
     width: 70%;
 
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      width: 90%;
+      grid-template-rows: repeat(3, minmax(0, 1fr));
+      grid-template-columns: unset;
+    }
+
     #certification {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       justify-content: center;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        display: flex;
+        flex-direction: column;
+      }
 
       >div {
         display: flex;
@@ -220,14 +244,6 @@ main {
         }
       }
     }
-
-    @media only screen and (max-width: 700px) {
-
-      #certification {
-        grid-template-rows: repeat(3, minmax(0, 1fr));
-        grid-template-columns: unset;
-      }
-    }
   }
 
   #main-chefs {
@@ -238,6 +254,11 @@ main {
       display: grid;
       gap: 5dvw;
       grid-template-columns: repeat(3, minmax(0, 1fr));
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        display: flex;
+        flex-direction: column;
+      }
 
       .chef-holder {
         display: flex;
@@ -276,28 +297,51 @@ main {
         .country {
           font-family: "Anton SC", sans-serif;
           font-weight: bold;
-          font-size: 2.5dvw;
+          /*font-size: 2.5dvw;*/
           text-transform: uppercase;
         }
       }
 
       .smudge-side {
         transform: translateY(60%);
+
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          transform: none;
+        }
       }
 
       .smudge-center {
         transform: translateY(20%);
+
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          transform: none;
+        }
       }
 
       .chef-section {
         display: grid;
         grid-template-rows: repeat(2, minmax(0, 1fr));
+
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .chef-section.center {
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          gap: 5dvw;
+        }
       }
     }
   }
 
   #main-history {
     width: 60%;
+
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      width: 90%;
+    }
 
     #history {
       display: grid;
@@ -312,6 +356,10 @@ main {
         border-radius: 1dvw;
         box-shadow: inset 5px 5px 5.7px #00000032;
 
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          display: none;
+        }
+
         h3 {
           text-decoration: underline;
           margin-bottom: 0;
@@ -319,8 +367,6 @@ main {
 
         .people {
           flex-grow: 1;
-          display: flex;
-          flex-direction: column;
           justify-content: space-evenly;
           gap: 3dvw;
           margin: 1dvw 0;
@@ -338,18 +384,12 @@ main {
         border-radius: 1dvw;
         box-shadow: inset 5px 5px 5.7px #00000032;
 
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          grid-column: span 5;
+        }
+
         p {
           margin: 0;
-        }
-      }
-
-      @media only screen and (max-width: 700px) {
-        .thin {
-          display: none;
-        }
-
-        .wide {
-          grid-column: span 5;
         }
       }
     }
@@ -359,15 +399,24 @@ main {
     width: 70%;
     margin-bottom: 3dvw;
 
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      width: 90%;
+    }
+
     #reviews {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 3dvw;
 
-      .review {
+      @media only screen and (max-aspect-ratio: 1 / 1) {
         display: flex;
         flex-direction: column;
-        height: 15dvw;
+      }
+
+      .review {
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
         padding: 2dvw;
         background: var(--accent);
         border-radius: 1dvw;
@@ -381,6 +430,11 @@ main {
           transform: translateX(11.5dvw);
           padding-left: 1dvw;
 
+          @media only screen and (max-aspect-ratio: 1 / 1) {
+            width: 30dvw;
+            transform: translateX(55dvw);
+          }
+
           img {
             width: calc(20% - 1dvw);
             filter: drop-shadow(.3dvw .3dvw .1dvw #00000040);
@@ -390,6 +444,10 @@ main {
         >img {
           border-radius: 50%;
           width: 20%;
+
+          @media only screen and (max-aspect-ratio: 1 / 1) {
+            width: 12.5%;
+          }
         }
 
         .description {
@@ -399,7 +457,7 @@ main {
         .occupation {
           margin-bottom: 1dvw;
           color: var(--occupation-text-color);
-          font-size: 1.5dvw;
+          /*font-size: 1.5dvw;*/
         }
 
         .comment {
@@ -408,42 +466,8 @@ main {
           align-items: center;
           text-transform: uppercase;
           font-family: var(--comment-font);
-          font-size: 2dvw;
+          /*font-size: 2dvw;*/
         }
-      }
-
-      @media only screen and (max-width: 700px) {
-        .review {
-          height: 30dvw;
-
-          .star-container {
-            width: 30dvw;
-            transform: translateX(35dvw);
-          }
-
-          >img {
-            width: 12.5%;
-          }
-
-          .comment {
-            font-size: 3dvw;
-          }
-        }
-      }
-    }
-
-    @media only screen and (max-width: 700px) {
-      #reviews {
-        grid-template-columns: repeat(1, 1fr);
-      }
-    }
-
-    #main-sponsors {
-      width: 100dvw;
-
-      #sponsors {
-        display: flex;
-        flex-wrap: nowrap;
       }
     }
   }
@@ -458,34 +482,48 @@ main {
       gap: 3dvw;
       padding: 0 5dvw;
       height: 20dvw;
-      overflow: scroll;
+      overflow: hidden;
       font-family: sans-serif;
 
-      .sponsor-container {
-        width: 20dvw;
-        height: 100%;
-        margin: 0;
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        height: 40dvw;
+      }
 
-        .sponsor-name {
-          flex-shrink: 0;
-          height: 3dvw;
+      .sponsor {
+        min-width: 20dvw;
+
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          min-width: 33dvw;
+        }
+
+        .sponsor-container {
+          height: 100%;
           margin: 0;
-        }
 
-        .sponsor-icon-container {
-          flex: 1 1 0;
-          min-height: 0;
-          flex-grow: 1;
-
-          .sponsor-icon {
-            object-fit: scale-down;
-            height: 100%;
+          .sponsor-name {
+            flex-shrink: 0;
+            height: 3dvw;
+            margin: 0;
           }
-        }
 
-        .sponsor-description {
-          flex-shrink: 0;
-          height: 6dvw;
+          .sponsor-icon-container {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            min-height: 0;
+
+            .sponsor-icon {
+              display: flex;
+              align-items: center;
+              height: 100%;
+              object-fit: scale-down;
+            }
+          }
+
+          .sponsor-description {
+            flex-shrink: 0;
+            height: 5rem;
+          }
         }
       }
     }

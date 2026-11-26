@@ -71,7 +71,7 @@ const rawSponsors = [
     name: "Optifine",
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwKCNC0wlFM58jD5VhINObSv2aY-tqMAYR2Eq4K9I2I5qLbPTlH5jiSvq&s=10",
     url: "https://optifine.net",
-    role: "Optimisation des logiciels de travail"
+    role: "Optimisation fiscale"
   },
   {
     name: "Palantir",
@@ -83,7 +83,7 @@ const rawSponsors = [
     name: "Parti Communiste Chinois",
     icon: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_the_Chinese_Communist_Party.svg",
     url: "https://www.idcpc.org.cn/",
-    role: "Exil fiscal et politique"
+    role: "Exil politique"
   },
   {
     name: "Piscine municipale Vallier",
@@ -112,7 +112,7 @@ const rawSponsors = [
   {
     name: "US Lanvallay",
     icon: "https://s2.static-footeo.com/100/uploads/uslanvallay/logo__76jtu0kr3.png",
-    url: "https://uslanvallay.footeo.com/",
+    url: "https://www.transfermarkt.fr/us-lanvallay/startseite/verein/142751",
     role: "En vrai c'est nous qui les payons"
   },
   {

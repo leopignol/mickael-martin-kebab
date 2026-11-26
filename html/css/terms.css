@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  justify-content: center;
+  user-select: text;
+
+  section {
+    width: 80%;
+
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      width: 90%;
+    }
+
+    h4 {
+      text-align: left;
+    }
+  }
+}

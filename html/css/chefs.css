@@ -62,7 +62,7 @@ main {
         .country {
           font-family: "Anton SC", sans-serif;
           font-weight: bold;
-          font-size: 2.5dvw;
+          /*font-size: 2.5dvw;*/
           text-transform: uppercase;
         }
       }

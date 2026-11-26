@@ -40,3 +40,10 @@ customElements.define("top-button", class extends HTMLElement {
     }
   }
 });
+
+function togglePillVisibility() {
+  let pills = document.getElementsByClassName("pill");
+
+  for (let pill of pills)
+    pill.hidden = !pill.hidden || false;
+}
