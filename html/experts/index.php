@@ -7,7 +7,7 @@ if (!isset($_GET["chef"])) {
 
 $chef_value = $_GET["chef"] ?? "";
 
-try { $json_data = file_get_contents($chef_value . ".json"); }
+try { $json_data = file_get_contents("data/" . $chef_value . ".json"); }
 catch (Throwable $th) { exit ("Chef introuvable"); }
 
 $expert_data = json_decode($json_data);
