@@ -18,9 +18,17 @@
 		<main>
 			<section id="main-parts">
 				<h2>Qui sommes nous ?</h2>
-				<img class="flame top" src="/img/flames/icon.svg" alt="Flame" loading="lazy">
+				<img class="flame top"
+				     src="/img/flames/icon.svg"
+				     alt="Flame"
+				     loading="lazy"
+				>
 				<div class="part top">
-					<img src="/img/students/a.webp" alt="Homme se préparant à couper une broche à kebab" title="Ancien élève" loading="lazy">
+					<img src="/img/students/a.webp"
+					     alt="Homme se préparant à couper une broche à kebab"
+					     title="Ancien élève"
+					     loading="lazy"
+					>
 					<p class="right allow-select">
 						Nous sommes une entreprise spécialisée dans la formation au métier
 						de kebabier.
@@ -38,9 +46,17 @@
 						Kebab le plus rapidement possible dans n’importe quel pays, grâce à
 						notre diplôme reconnu mondialement.
 					</p>
-					<img src="/img/students/b.webp" alt="Homme avec un tablier &#8217;Grand Maître Kebabier&#8217;" title="Ancien élève" loading="lazy">
+					<img src="/img/students/b.webp"
+					     alt="Homme avec un tablier &#8217;Grand Maître Kebabier&#8217;"
+					     title="Ancien élève"
+					     loading="lazy"
+					>
 				</div>
-				<img class="flame bottom" src="/img/flames/icon.svg" alt="Flame" loading="lazy">
+				<img class="flame bottom"
+				     src="/img/flames/icon.svg"
+				     alt="Flame"
+				     loading="lazy"
+				>
 			</section>
 
 			<section id="main-formations">
@@ -48,7 +64,10 @@
 				<div id="formation">
 					<div>
 						<div class="background">
-							<img src="/img/books/green.svg" alt="Green book" loading="lazy">
+							<img src="/img/books/green.svg"
+							     alt="Green book"
+							     loading="lazy"
+							>
 						</div>
 						<details>
 							<summary id="formation-simple">
@@ -66,7 +85,10 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/books/blue.svg" alt="Blue book" loading="lazy">
+							<img src="/img/books/blue.svg"
+							     alt="Blue book"
+							     loading="lazy"
+							>
 						</div>
 						<details>
 							<summary id="formation-pro">
@@ -83,7 +105,10 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/books/red.svg" alt="Red book" loading="lazy">
+							<img src="/img/books/red.svg"
+							     alt="Red book"
+							     loading="lazy"
+							>
 						</div>
 						<details>
 							<summary id="formation-pro-ultra">
@@ -109,7 +134,10 @@
 				<div id="certification">
 					<div>
 						<div class="background">
-							<img src="/img/certification/customers.svg" alt="Satisfied customers" loading="lazy">
+							<img src="/img/certification/customers.svg"
+							     alt="Satisfied customers"
+							     loading="lazy"
+							>
 						</div>
 						<p>
 							98% des clients satisfaits
@@ -117,7 +145,10 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/certification/flags.svg" alt="Flags of France, Italy and England" loading="lazy">
+							<img src="/img/certification/flags.svg"
+							     alt="Flags of France, Italy and England"
+							     loading="lazy"
+							>
 						</div>
 						<p>
 							Formations disponibles
@@ -127,7 +158,10 @@
 					</div>
 					<div>
 						<div class="background">
-							<img src="/img/certification/chef.svg" alt="Satisfied chef" loading="lazy">
+							<img src="/img/certification/chef.svg"
+							     alt="Satisfied chef"
+							     loading="lazy"
+							>
 						</div>
 						<p>
 							9,5 kebabiers sur 10
@@ -148,7 +182,11 @@
 					<div class="chef-section left">
 						<a href="/experts?chef=kim-min-jae">
 							<div class="chef-holder smudge-side">
-								<img src="/img/chefs/kim-min-jae.webp" alt="Kim Min-jae devant une broche à kebab" loading="lazy" class="red">
+								<img class="red"
+								     src="/img/chefs/kim-min-jae.webp"
+								     alt="Kim Min-jae devant une broche à kebab"
+								     loading="lazy"
+								>
 								<p class="allow-select">
 									<em>Kim Min&#x2013;jae</em> (<span class="korean">김민재</span>)<br>
 									<span class="country">Corée du Nord</span>
@@ -159,7 +197,11 @@
 					<div class="chef-section center">
 						<a href="/experts?chef=aaron-ameur">
 							<div class="chef-holder">
-								<img src="/img/chefs/aaron-ameur.webp" alt="Aaron Ameur devant une broche à kebab" loading="lazy" class="green">
+								<img class="green"
+								     src="/img/chefs/aaron-ameur.webp"
+								     alt="Aaron Ameur devant une broche à kebab"
+								     loading="lazy"
+								>
 								<p class="allow-select">
 									<em>Aaron Ameur</em><br>
 									<span class="country">Algérie</span>
@@ -168,7 +210,11 @@
 						</a>
 						<a href="/experts?chef=sione-teo">
 							<div class="chef-holder smudge-center">
-								<img src="/img/chefs/sione-teo.webp" alt="Sione Teo devant une broche à kebab" loading="lazy" class="orange">
+								<img class="orange"
+								     src="/img/chefs/sione-teo.webp"
+								     alt="Sione Teo devant une broche à kebab"
+								     loading="lazy"
+								>
 								<p class="allow-select">
 									<em>Sione Teo</em><br>
 									<span class="country">Bhoutan</span>
@@ -179,7 +225,11 @@
 					<div class="chef-section right">
 						<a href="/experts?chef=jean-claude-ndayishimiye">
 							<div class="chef-holder smudge-side">
-								<img src="/img/chefs/jean-claude-ndayishimiye.webp" alt="Jean-Claude Ndayishimiye devant une broche à kebab" loading="lazy" class="white">
+								<img class="white"
+								     src="/img/chefs/jean-claude-ndayishimiye.webp"
+								     alt="Jean-Claude Ndayishimiye devant une broche à kebab"
+								     loading="lazy"
+								>
 								<p class="allow-select">
 									<em>Jean&#x2013;Claude Ndayishimiye</em><br>
 									<span class="country">Burundi</span>
@@ -197,20 +247,29 @@
 						<h3>Personnages marquants</h3>
 						<div class="people">
 							<figure>
-								<img src="/img/people/ekmegi-pita.webp" alt="Ekmeği Pita" loading="lazy">
+								<img src="/img/people/ekmegi-pita.webp"
+								     alt="Ekmeği Pita"
+								     loading="lazy"
+								>
 								<figcaption>
 									Peinture à l&#8217;encre de
 									<span class="turkish">Ekmeği&nbsp;Pita</span>
 								</figcaption>
 							</figure>
 							<figure>
-								<img src="/img/people/don-erkepap.webp" alt="Don Erkepap" loading="lazy">
+								<img src="/img/people/don-erkepap.webp"
+								     alt="Don Erkepap"
+								     loading="lazy"
+								>
 								<figcaption>
 									Mosaïque de <span class="turkish">Don&nbsp;Erkepap</span>
 								</figcaption>
 							</figure>
 							<figure>
-								<img src="/img/people/emre-facfut.webp" alt="Emre Façfut" loading="lazy">
+								<img src="/img/people/emre-facfut.webp"
+								     alt="Emre Façfut"
+								     loading="lazy"
+								>
 								<figcaption>
 									Photo de <span class="turkish">Emre&nbsp;Façfut</span>
 								</figcaption>
@@ -266,11 +325,26 @@
 				<div id="reviews">
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
 						</div>
 						<img src="/img/profile-pictures/lucien.webp" alt="Lucien" loading="lazy">
 						<span class="description">Lucien, 54 ans</span>
@@ -279,11 +353,26 @@
 					</div>
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-empty.svg" alt="Empty star" loading="lazy">
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-empty.svg"
+							     alt="Empty star"
+							     loading="lazy"
+							>
 						</div>
 						<img src="/img/profile-pictures/charles.webp" alt="Charles" loading="lazy">
 						<span class="description">Charles, 27 ans</span>
@@ -292,11 +381,26 @@
 					</div>
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
 						</div>
 						<img src="/img/profile-pictures/bernadette.webp" alt="Bernadette" loading="lazy">
 						<span class="description">Bernadette, 37 ans</span>
@@ -305,11 +409,26 @@
 					</div>
 					<div class="review">
 						<div class="star-container">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
-							<img src="/img/icons/star-full.svg" alt="STAR" loading="lazy">
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
+							<img src="/img/icons/star-full.svg"
+							     alt="STAR"
+							     loading="lazy"
+							>
 						</div>
 						<img src="/img/profile-pictures/paulus.webp" alt="Paulus" loading="lazy">
 						<span class="description">Paulus, 31 ans</span>

@@ -479,7 +479,8 @@ main {
       font-family: sans-serif;
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
-        height: 40dvw;
+        height: 70dvw;
+        gap: 10dvw;
       }
 
       .sponsor {
@@ -494,9 +495,14 @@ main {
           margin: 0;
 
           .sponsor-name {
+            font-family: sans-serif;
             flex-shrink: 0;
-            height: 3dvw;
+            height: 1.5rem;
             margin: 0;
+
+            @media only screen and (max-aspect-ratio: 1 / 1) {
+              height: 4.5rem;
+            }
           }
 
           .sponsor-icon-container {
@@ -516,6 +522,10 @@ main {
           .sponsor-description {
             flex-shrink: 0;
             height: 5rem;
+
+            @media only screen and (max-aspect-ratio: 1 / 1) {
+              height: 6.5rem;
+            }
           }
         }
       }

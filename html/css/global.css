@@ -95,6 +95,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: var(--body-font);
+  font-display: optional;
   user-select: none;
 
   main {

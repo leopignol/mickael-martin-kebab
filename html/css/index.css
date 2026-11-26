@@ -4,6 +4,7 @@ main {
   align-items: center;
 
   #presentation-container {
+    max-width: 100dvw;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
@@ -14,6 +15,7 @@ main {
 
     #presentation {
       max-height: 100%;
+      max-width: 100%;
       width: auto;
       display: block;
     }
