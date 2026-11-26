@@ -2,6 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 90dvh;
 
   #pricings {
     flex-grow: 1;
