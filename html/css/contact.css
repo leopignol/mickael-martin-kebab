@@ -127,14 +127,14 @@ textarea:focus {
   padding: 0 0.25dvw;
 }
 
-.field input:focus + label,
-.field input:not(:placeholder-shown) + label {
+.field input:focus+label,
+.field input:not(:placeholder-shown)+label {
   top: 0.60dvw;
   font-size: 0.75dvw;
   color: var(--bg-text);
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-aspect-ratio: 1 / 1) {
   main {
     padding: 5dvw;
   }
@@ -174,8 +174,8 @@ textarea:focus {
     left: 3dvw;
   }
 
-  .field input:focus + label,
-  .field input:not(:placeholder-shown) + label {
+  .field input:focus+label,
+  .field input:not(:placeholder-shown)+label {
     font-size: 2.5dvw;
     top: 1.5dvw;
   }
