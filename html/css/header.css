@@ -1,8 +1,8 @@
 site-header {
   display: block;
-  min-height: 5dvw;
 
   header {
+    min-height: 5dvw;
     height: auto;
     background-color: var(--borders);
     display: flex;
