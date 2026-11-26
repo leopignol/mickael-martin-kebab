@@ -23,11 +23,11 @@ const rawSponsors = [
     name: "Bad Dragon",
     icon: "https://logos-world.net/wp-content/uploads/2022/12/Bad-Dragon-Logo.png",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    role: "Création de l'\"espace détente\""
+    role: "Création de l'“espace détente”"
   },
   {
     name: "Centre équestre Lyon-Parilly",
-    icon: "https://centreequestre-lyonparilly.fr/wp-content/uploads/2020/03/Image-Olivier-couleur-768x1024.png",
+    icon: "https://centreequestre-lyonparilly.fr/wp-content/uploads/2020/02/cropped-logo-1.jpg",
     url: "https://centreequestre-lyonparilly.fr/",
     role: "Véhicules de fonction"
   },
