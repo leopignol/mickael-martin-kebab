@@ -41,7 +41,7 @@
 							En savoir plus &nearr;
 						</a>
 						<a class="buy-now"
-						   href="mailto:contact@mickael-martin-kebab.site?subject=Achat%20Formation%20Kebab%20Simple"
+						   href="/hiring?training=simple"
 						>
 							Acheter dès maintenant&nbsp;!
 						</a>
@@ -63,7 +63,7 @@
 							En savoir plus &nearr;
 						</a>
 						<a class="buy-now"
-						   href="mailto:contact@mickael-martin-kebab.site?subject=Achat%20Formation%20Kebab%20Pro"
+						   href="/hiring?training=pro"
 						>
 							Acheter dès maintenant&nbsp;!
 						</a>
@@ -85,7 +85,7 @@
 							En savoir plus &nearr;
 						</a>
 						<a class="buy-now"
-						   href="mailto:contact@mickael-martin-kebab.site?subject=Achat%20Formation%20Kebab%20Pro%20Ultra"
+						   href="/hiring?training=pro-ultra"
 						>
 							Acheter dès maintenant&nbsp;!
 						</a>
