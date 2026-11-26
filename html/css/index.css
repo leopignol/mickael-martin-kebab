@@ -3,6 +3,7 @@ main {
   margin: 0 auto;
   padding: clamp(2.5rem, 7vw, 6rem) 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .home-hero {
