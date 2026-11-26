@@ -147,7 +147,7 @@
 				</h2>
 				<div id="chefs">
 					<div class="chef-section left">
-						<a href="/chefs/kim-min-jae">
+						<a href="/experts?chef=kim-min-jae">
 							<div class="chef-holder smudge-side">
 								<img src="/img/chefs/kim-min-jae.webp" alt="Kim Min-jae devant une broche à kebab" loading="lazy" class="red">
 								<p class="allow-select">
@@ -158,7 +158,7 @@
 						</a>
 					</div>
 					<div class="chef-section center">
-						<a href="/chefs/aaron-ameur">
+						<a href="/experts?chef=aaron-ameur">
 							<div class="chef-holder">
 								<img src="/img/chefs/aaron-ameur.webp" alt="Aaron Ameur devant une broche à kebab" loading="lazy" class="green">
 								<p class="allow-select">
@@ -167,7 +167,7 @@
 								</p>
 							</div>
 						</a>
-						<a href="/chefs/sione-teo">
+						<a href="/experts?chef=sione-teo">
 							<div class="chef-holder smudge-center">
 								<img src="/img/chefs/sione-teo.webp" alt="Sione Teo devant une broche à kebab" loading="lazy" class="orange">
 								<p class="allow-select">
@@ -178,7 +178,7 @@
 						</a>
 					</div>
 					<div class="chef-section right">
-						<a href="/chefs/jean-claude-ndayishimiye">
+						<a href="/experts?chef=jean-claude-ndayishimiye">
 							<div class="chef-holder smudge-side">
 								<img src="/img/chefs/jean-claude-ndayishimiye.webp" alt="Jean-Claude Ndayishimiye devant une broche à kebab" loading="lazy" class="white">
 								<p class="allow-select">

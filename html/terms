@@ -278,8 +278,11 @@
 			</section>
 		</main>
 
+		<top-button></top-button>
 		<site-footer></site-footer>
 
 		<script src="/js/theme-changer.js"></script>
+		<script src="/js/arrow.js"></script>
+		
 	</body>
 </html>
