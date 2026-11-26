@@ -8,7 +8,8 @@ document.documentElement.style.colorScheme =
 function toggleTheme() {
   switch (
   document.documentElement.style.colorScheme ||
-  window.localStorage.getItem("theme-scheme")
+  window.localStorage.getItem("theme-scheme") ||
+  "dark"
   ) {
     case "light":
       changeTheme("dark");
