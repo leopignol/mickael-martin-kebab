@@ -10,6 +10,7 @@ agent/
   - client.py # Modèle de réponse d'emails
 editor/ # Fichiers pour la coloration syntaxique des fichiers sans extension
 html/ # Répertoire accessible
+  - admin/ # Panel administrateur
   - contact/ # Répertoire de la page de contact
     - index.html # Page affichée
     - send.php # Envoi des informations au serveur
