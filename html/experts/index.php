@@ -53,7 +53,7 @@ if (isset($expert_data->native_name)) {
 						<?php echo $chef ?> fait partie de l'équipe de maîtres kebabiers de Mickaël Martin Kebab.
 						Découvrez son portrait et sa place dans notre univers culinaire.
 					</p>
-					<a class="back-link" href="/chefs">← Découvrir tous nos experts</a>
+					<a class="back-link" href="/experts">← Découvrir tous nos experts</a>
 				</div>
 			</article>
 		</main>
