@@ -1,7 +1,6 @@
 @import url("fonts.css");
 @import url("header.css");
 @import url("footer.css");
-/*@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Anton+SC&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inspiration&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nanum+Myeongjo&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");*/
 
 :root {
   --shadow: #A19D8D;
@@ -136,11 +135,6 @@ a {
   color: var(--text);
 }
 
-/*p,
-a {
-  font-size: 1.25dvw;
-}*/
-
 img {
   display: flex;
   align-items: center;
@@ -161,13 +155,15 @@ figure {
 }
 
 top-button {
-  align-self: start;
+  z-index: 67;
+  align-self: flex-start;
+  position: -webkit-sticky;
   position: sticky;
+  bottom: 0.5dvw;
+  left: 0.5dvw;
 
   #top-button {
     width: fit-content;
-    bottom: 0.5dvw;
-    left: 0.5dvw;
     opacity: 1;
     transform: translateY(0);
     transition:
