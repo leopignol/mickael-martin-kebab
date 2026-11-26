@@ -80,6 +80,10 @@ main {
     .part.top {
       margin-bottom: 2.5dvw;
 
+      img {
+        aspect-ratio: 356 / 237;
+      }
+
       @media only screen and (max-aspect-ratio: 1 / 1) {
         margin-bottom: 5dvw;
       }
@@ -87,6 +91,10 @@ main {
 
     .part.bottom {
       margin-top: 1.25dvw;
+
+      img {
+        aspect-ratio: 356 / 475;
+      }
     }
   }
 
