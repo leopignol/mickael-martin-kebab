@@ -1,9 +1,14 @@
-// Play presentation if user accepted auto play with sound
-window.addEventListener("DOMContentLoaded", async () => {
-  const video = document.getElementById("presentation");
-  video.muted = false;
+const presentation = document.getElementById("presentation");
+const startPresentation = document.getElementById("start-presentation");
+const presentationStatus = document.getElementById("presentation-status");
 
+startPresentation.addEventListener("click", async () => {
   try {
-    await video.play();
-  } catch (_) { }
+    await presentation.play();
+    presentationStatus.textContent = "";
+  } catch (error) {
+    console.error("Could not start the presentation video.", error);
+    presentationStatus.textContent =
+      "La vidéo n’a pas pu démarrer. Utilisez les commandes de lecture.";
+  }
 });

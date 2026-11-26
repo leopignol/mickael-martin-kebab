@@ -7,8 +7,8 @@
 		<meta name="description" content="Mickaël Martin Kebab">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/global.css">
-		<link rel="stylesheet" href="/css/fonts.css">
 		<link rel="stylesheet" href="/css/index.css">
+		<link rel="stylesheet" href="/css/fonts.css">
 		<link rel="icon" href="/img/icons/favicon.svg" type="image/svg+xml">
 		<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
 	</head>
@@ -16,21 +16,63 @@
 		<site-header></site-header>
 
 		<main>
-			<h2>Présentation</h2>
+			<section class="home-hero" aria-labelledby="home-title">
+				<div class="hero-copy">
+					<p class="eyebrow">Mickaël Martin Kebab</p>
+					<h2 id="home-title">Le monde du kebab, <span>vu autrement.</span></h2>
+					<p class="hero-description">
+						Des passionnés, des histoires et un savoir-faire qui méritent d’être connus.
+						Bienvenue dans un univers bien plus riche qu’on ne le croit.
+					</p>
+					<div class="hero-actions">
+						<a id="start-presentation" href="#presentation">
+							<span class="play-icon" aria-hidden="true">▶</span>
+							En savoir plus
+						</a>
+						<a class="secondary-link" href="/about">Explorer le site <span aria-hidden="true">↗</span></a>
+					</div>
+					<p class="hero-footnote">Une autre vision du kebab, tout simplement.</p>
+				</div>
 
-			<div id="presentation-container">
-				<video id="presentation"
-				       controls
-				       loop
-				>
-					<source src="video/presentation.webm"
-					        type="video/webm"
+				<div class="hero-visual">
+					<div class="hero-image-frame">
+						<img src="/img/chefs/aaron-ameur.webp" alt="Un passionné de kebab dans son restaurant">
+					</div>
+					<div class="hero-sticker" aria-hidden="true">
+						<span>Passion</span>
+						<strong>×</strong>
+						<span>Savoir-faire</span>
+					</div>
+					<div class="hero-caption">
+						<span class="caption-dot" aria-hidden="true"></span>
+						<p>Une culture qui se partage</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="presentation-section" aria-labelledby="presentation-title">
+				<div class="presentation-heading">
+					<p class="eyebrow">Le film</p>
+					<h2 id="presentation-title">La présentation</h2>
+					<p>Quelques secondes pour découvrir la formation.</p>
+				</div>
+				<div id="presentation-container">
+					<video id="presentation"
+					       controls
+					       loop
+					       playsinline
+					       preload="metadata"
+					       tabindex="0"
+					       aria-label="Présentation de Mickaël Martin Kebab"
 					>
-					Your browser does not support this amazing video's tag!
-				</video>
-			</div>
-
-			<a href="/about">En savoir plus &nearr;</a>
+						<source src="video/presentation.webm"
+						        type="video/webm"
+						>
+						Votre navigateur ne prend pas en charge la lecture de cette vidéo.
+					</video>
+				</div>
+				<p id="presentation-status" class="presentation-status" aria-live="polite"></p>
+			</section>
 		</main>
 
 		<site-footer></site-footer>
