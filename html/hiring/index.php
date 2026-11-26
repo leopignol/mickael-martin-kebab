@@ -61,9 +61,9 @@
 
 				<div class="field training-field">
 					<select id="training" name="training" required>
-						<option value="simple"   >Simple</option>
-						<option value="pro"  >Pro</option>
-						<option value="pro-max"  >Pro Ultra</option>
+						<option value="simple"  <?php if ($_GET["training"] === "simple") echo "selected"; ?> >Simple</option>
+						<option value="pro" <?php if ($_GET["training"] === "pro") echo "selected"; ?> >Pro</option>
+						<option value="pro-max" <?php if ($_GET["training"] === "pro-ultra") echo "selected"; ?> >Pro Ultra</option>
 					</select>
 					<label for="training">Formation</label>
 				</div>
