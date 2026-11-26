@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="/js/layout.js" defer></script>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/contact.css">
+    </head>
+    <body>
+        <site-header></site-header>
+        <main>
+            <form id="contact-form" action="send.php" method="post">
+                <label id="title">Contactez Nous</label>
+                <div class="field">
+                        <input type="text" autocomplete="given-name" id="first-name" name="first_name" placeholder=" " required/>
+                    <label for="first-name">Prénom</label>
+                </div>
+
+                <div class="field">
+                        <input type="text" autocomplete="family-name" id="name" name="last_name" placeholder=" " required/>
+                    <label for="name">Nom</label>
+                </div>
+
+                <div class="field">
+                        <input type="email" autocomplete="email" id="mail" name="email" placeholder=" " required/>
+                    <label for="mail">E-mail</label>
+                </div>
+
+                <div class="field">
+                        <input type="tel" autocomplete="tel" id="phone" name="phone" placeholder=" ">
+                    <label for="phone">Numéro de téléphone</label>
+                </div>
+                
+                <label class="message-label" for="content">Message (1000 caractères maximum)</label>
+                <textarea id="content" name="message" maxlength="1000" required></textarea>
+                <input type="submit" id="send-button" value="Envoyer"/>
+            </form>
+        </main>
+        <site-footer></site-footer>
+        <script src="/js/theme-changer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,192 @@
+main {
+  min-height: calc(100dvh - 9dvw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3dvw;
+  box-sizing: border-box;
+
+}
+
+form {
+  width: min(55dvw, 800px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25dvw;
+  padding: 2.5dvw;
+  box-sizing: border-box;
+  border-radius: 1.25dvw;
+  background: var(--accent);
+  box-shadow: 0 0.5dvw 1.5dvw #00000024;
+}
+
+#title {
+  grid-column: 1 / -1;
+  margin: 0 0 0.5dvw;
+  color: var(--text);
+  font-size: 2dvw;
+  text-align: center;
+}
+
+input {
+  transition-duration: 200ms;
+}
+
+input,
+textarea,
+#send-button {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0.65dvw;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Antic Didone', serif;
+  font-size: 1.1dvw;
+  box-shadow: inset 2px 2px 5px #00000018;
+  outline: none;
+}
+
+input,
+#send-button {
+  height: 3.25dvw;
+  padding: 0 1dvw;
+}
+
+textarea {
+  grid-column: 1 / -1;
+  min-height: 11dvw;
+  padding: 1dvw;
+  resize: vertical;
+}
+
+.message-label {
+  grid-column: 1 / -1;
+  color: var(--text);
+  font-size: 1.1dvw;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow:
+    inset 2px 2px 5px #00000018,
+    0 0 0 2px var(--bg-text);
+}
+
+#mail,
+#phone {
+  margin-bottom: 0;
+}
+
+#send-button {
+  grid-column: 1 / -1;
+  justify-self: end;
+  width: 9dvw;
+  cursor: pointer;
+  background: var(--bg-text);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0.25dvw 0.6dvw #00000025;
+  transition: filter 0.2s ease, transform 0.2s ease, width 0.2s ease;
+}
+
+#send-button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
+}
+
+#send-button:active {
+  transform: translateY(0);
+}
+
+.field {
+  position: relative;
+  min-width: 0;
+}
+
+.field input {
+  width: 100%;
+  height: 3.25dvw;
+  padding: 1.15dvw 1dvw 0.25dvw;
+  font-size: 1.1dvw;
+  background: var(--bg);
+  border: 0;
+  border-radius: 0.65dvw;
+  box-sizing: border-box;
+}
+
+.field label {
+  position: absolute;
+  left: 1dvw;
+  top: 50%;
+  transform: translateY(-50%);
+  color: color-mix(in srgb, var(--text) 65%, transparent);
+  font-size: 1.1dvw;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  padding: 0 0.25dvw;
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label {
+  top: 0.60dvw;
+  font-size: 0.75dvw;
+  color: var(--bg-text);
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 5dvw;
+  }
+
+  form {
+    width: 90dvw;
+    grid-template-columns: 1fr;
+    padding: 5dvw;
+  }
+
+  #title {
+    margin-bottom: 1dvw;
+    font-size: 5dvw;
+  }
+
+  input,
+  textarea,
+  #send-button,
+  .field input,
+  .message-label,
+  .field label {
+    font-size: 3dvw;
+  }
+
+  input,
+  #send-button,
+  .field input {
+    height: 10dvw;
+  }
+
+  .field input {
+    padding: 3dvw 3dvw 1dvw;
+    border-radius: 2dvw;
+  }
+
+  .field label {
+    left: 3dvw;
+  }
+
+  .field input:focus + label,
+  .field input:not(:placeholder-shown) + label {
+    font-size: 2.5dvw;
+    top: 1.5dvw;
+  }
+
+  textarea {
+    min-height: 30dvw;
+    border-radius: 2dvw;
+  }
+
+  #send-button {
+    width: 100%;
+    border-radius: 2dvw;
+  }
+}

@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    width: clamp(7rem, 9dvw, 12rem);
+    cursor: pointer;
+    background: var(--bg-text);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0.25dvw 0.6dvw #00000025;
+    transition: filter 0.2s ease, transform 0.2s ease;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 0.75rem ;
+    font-family: 'Antic Didone', serif;
+    font-size: clamp(1rem, 1.1dvw, 1.25rem);
+    outline: none;
+    padding: 0.75rem 1.25rem;
+}
+
+a:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
+}
+
+a:active {
+  transform: translateY(0);
+}
