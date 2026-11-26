@@ -10,5 +10,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    #presentation {
+      max-height: 100%;
+      width: auto;
+      display: block;
+    }
   }
 }

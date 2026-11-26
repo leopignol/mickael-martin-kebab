@@ -3,7 +3,8 @@ site-header {
   min-height: 5dvw;
 
   header {
-    height: 5dvw;
+    /*height: 5dvw;*/
+    height: auto;
     background-color: var(--borders);
     display: flex;
     align-items: center;
@@ -20,6 +21,7 @@ site-header {
     #title {
       font-family: var(--title-font);
       font-size: var(--title-size);
+      white-space: nowrap;
       text-shadow: -6px -2px 4px #00000032;
       color: #FFF;
       margin: 0;
@@ -31,6 +33,7 @@ site-header {
 
     .pill {
       font-size: 0.75rem;
+      white-space: nowrap;
       padding: 0.5dvw;
       background-color: var(--pill-color);
       border-radius: var(--pill-radius);
