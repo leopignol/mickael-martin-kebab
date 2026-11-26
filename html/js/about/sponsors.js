@@ -39,7 +39,7 @@ const rawSponsors = [
   },
   {
     name: "Kebab Market",
-    icon: "https://kebab-market.alwaysdata.net/image/kebabe.ico",
+    icon: "https://kebab-market.alwaysdata.net/image/kebabico.ico",
     url: "https://kebab-market.alwaysdata.net/",
     role: "Notre partenaire en or"
   },
