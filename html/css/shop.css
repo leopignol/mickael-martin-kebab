@@ -23,9 +23,12 @@ main {
       border: 1px solid var(--shadow);
       border-radius: 1dvw;
       box-shadow: 1.7dvw 1.4dvw 1dvw #00000032;
-      width: 22dvw;
-      height: 30dvw;
-      aspect-ratio: 1;
+      width: 27.5%;
+      aspect-ratio: 11 / 15;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        width: 80%;
+      }
 
       .timer {
         flex-grow: 1;
@@ -33,8 +36,12 @@ main {
         justify-content: center;
         align-items: center;
         margin: 0;
-        font-size: 5dvw;
+        font-size: 4rem;
         font-family: "Anton SC", sans-serif;
+
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          width: 10rem;
+        }
       }
 
       .button-holder {
@@ -51,6 +58,13 @@ main {
           height: 4dvw;
           border-radius: 1dvw;
           transition: background-color 0.3s ease;
+          text-align: center;
+
+          @media only screen and (max-aspect-ratio: 1 / 1) {
+            font-size: 2rem;
+            height: auto;
+            padding: 2dvw;
+          }
         }
 
         .learn-more {
@@ -74,6 +88,16 @@ main {
       h3>.accent {
         font-style: italic;
         font-weight: bold;
+      }
+    }
+
+    .pricing.best {
+      background:
+        linear-gradient(to bottom right, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+      width: 30%;
+
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        width: 90%;
       }
     }
   }

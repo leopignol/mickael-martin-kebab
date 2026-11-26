@@ -287,8 +287,13 @@ main {
 
         .country {
           font-family: "Anton SC", sans-serif;
+          font-size: 2rem;
           font-weight: bold;
           text-transform: uppercase;
+
+          @media only screen and (max-aspect-ratio: 1 / 1) {
+            font-size: 3rem;
+          }
         }
       }
 

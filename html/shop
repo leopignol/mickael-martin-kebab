@@ -28,8 +28,7 @@
 						<br>
 						<span class="accent">Simple</span>
 					</h3>
-					<p class="timer">
-					</p>
+					<p class="timer"></p>
 					<div class="button-holder">
 						<a target="_blank"
 						   href="/about?formation=simple#nos-formations"
@@ -44,13 +43,17 @@
 						</a>
 					</div>
 				</div>
-				<div class="pricing">
+				<div class="pricing best">
 					<h3>
 						Formation Kebab
 						<br>
 						<span class="accent">Pro</span>
 					</h3>
-					<p class="timer">
+					<p class="timer"></p>
+					<p class="best-value">
+						<em>
+							Meilleur rapport qualité/prix&nbsp;!
+						</em>
 					</p>
 					<div class="button-holder">
 						<a target="_blank"
@@ -72,8 +75,7 @@
 						<br>
 						<span class="accent">Pro Ultra</span>
 					</h3>
-					<p class="timer">
-					</p>
+					<p class="timer"></p>
 					<div class="button-holder">
 						<a target="_blank"
 						   href="/about?formation=pro-ultra#nos-formations"
