@@ -11,7 +11,7 @@ main {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.82fr);
   align-items: center;
   gap: clamp(2rem, 7vw, 6rem);
-  padding: clamp(1rem, 4vw, 3rem) 0 clamp(4rem, 9vw, 8rem);
+  padding-bottom: clamp(4rem, 9vw, 8rem);
 }
 
 .hero-copy {
@@ -225,7 +225,7 @@ main {
   font-size: clamp(2.4rem, 5vw, 4rem);
 }
 
-.presentation-heading > p:last-child {
+.presentation-heading>p:last-child {
   margin: 0.5rem 0 0;
   color: var(--bg-text);
 }
@@ -277,6 +277,7 @@ main {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
