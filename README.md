@@ -1,6 +1,9 @@
 # Mickaël Martin Kebab
 https://github.com/leopignol/mickael-martin-kebab
 
+* Disponible sur http://mickael-martin-kebab.site/
+* Avec un fallback *[Alwaysdata](https://www.alwaysdata.com/)* sur https://mickael-martin-kebab.alwaysdata.net/
+
 ## Structure
 ```py
 agent/
