@@ -5,7 +5,7 @@
 		<script src="/js/layout.js" defer></script>
 		<title>Mickaël Martin Kebab – 404</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Mickaël Martin Kebab">
+		<meta name="description" content="La page demandée est introuvable. Revenez découvrir Mickaël Martin Kebab.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/fonts.css">
@@ -18,13 +18,22 @@
 		<site-header></site-header>
 
 		<main>
-			<pre>404</pre>
+			<section class="not-found" aria-labelledby="not-found-title">
+				<p class="not-found-code" aria-hidden="true">404</p>
+				<p class="not-found-eyebrow">On s’est perdu en route ?</p>
+				<h2 id="not-found-title">Cette page est introuvable.</h2>
+				<p class="not-found-description">
+					Le lien a peut-être changé, ou cette page n’existe plus.
+					Pas de panique, le meilleur du kebab est toujours par ici.
+				</p>
+				<nav class="not-found-actions" aria-label="Que faire ensuite">
+					<a class="not-found-home" href="/">Retour à l’accueil <span aria-hidden="true">↗</span></a>
+					<a class="not-found-experts" href="/experts">Découvrir nos experts</a>
+				</nav>
+			</section>
 		</main>
 
-		<top-button></top-button>
-
 		<site-footer></site-footer>
-		<script src="/js/arrow.js"></script>
 		<script src="/js/theme-changer.js"></script>
 	</body>
 </html>
