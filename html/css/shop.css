@@ -2,7 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90dvh;
+  min-height: 90dvh;
 
   #pricings {
     flex-grow: 1;
@@ -45,6 +45,10 @@ main {
         }
       }
 
+      p {
+        text-align: center;
+      }
+
       .button-holder {
         display: flex;
         flex-direction: column;
@@ -59,7 +63,6 @@ main {
           height: 4dvw;
           border-radius: 1dvw;
           transition: background-color 0.3s ease;
-          text-align: center;
 
           @media only screen and (max-aspect-ratio: 1 / 1) {
             font-size: 2rem;
@@ -96,6 +99,7 @@ main {
       background:
         linear-gradient(to bottom right, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
       width: 30%;
+      transform: scale(1.05);
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
         width: 90%;

@@ -33,6 +33,9 @@
 						<span class="accent">Simple</span>
 					</h3>
 					<p class="timer"></p>
+					<p>
+						399.9999€
+					</p>
 					<div class="button-holder">
 						<a target="_blank"
 						   href="/about?formation=simple#nos-formations"
@@ -58,6 +61,8 @@
 						<em>
 							Meilleur rapport qualité/prix&nbsp;!
 						</em>
+						<br>
+						999.9999€
 					</p>
 					<div class="button-holder">
 						<a target="_blank"
@@ -80,6 +85,9 @@
 						<span class="accent">Pro Ultra</span>
 					</h3>
 					<p class="timer"></p>
+					<p>
+						2400.0000€
+					</p>
 					<div class="button-holder">
 						<a target="_blank"
 						   href="/about?formation=pro-ultra#nos-formations"
