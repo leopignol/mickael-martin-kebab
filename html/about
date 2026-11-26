@@ -21,13 +21,13 @@
 				<img class="flame top"
 				     src="/img/flames/icon.svg"
 				     alt="Flame"
-				     loading="lazy"
+				     loading="eager"
 				>
 				<div class="part top">
 					<img src="/img/students/a.webp"
 					     alt="Homme se préparant à couper une broche à kebab"
 					     title="Ancien élève"
-					     loading="lazy"
+					     loading="eager"
 					>
 					<p class="right allow-select">
 						Nous sommes une entreprise spécialisée dans la formation au métier
@@ -49,13 +49,13 @@
 					<img src="/img/students/b.webp"
 					     alt="Homme avec un tablier &#8217;Grand Maître Kebabier&#8217;"
 					     title="Ancien élève"
-					     loading="lazy"
+					     loading="eager"
 					>
 				</div>
 				<img class="flame bottom"
 				     src="/img/flames/icon.svg"
 				     alt="Flame"
-				     loading="lazy"
+				     loading="eager"
 				>
 			</section>
 
@@ -66,7 +66,7 @@
 						<div class="background">
 							<img src="/img/books/green.svg"
 							     alt="Green book"
-							     loading="lazy"
+							     loading="eager"
 							>
 						</div>
 						<details>
