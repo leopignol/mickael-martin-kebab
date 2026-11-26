@@ -65,7 +65,7 @@ const rawSponsors = [
     name: "Mossad",
     icon: "https://upload.wikimedia.org/wikipedia/commons/8/86/Mossad_seal.svg",
     url: "https://www.mossad.gov.il/",
-    role: "\"Support en tout genre\""
+    role: "“Support en tout genre”"
   },
   {
     name: "Optifine",
