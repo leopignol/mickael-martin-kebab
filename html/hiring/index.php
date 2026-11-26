@@ -125,7 +125,7 @@
 
 				<label class="message-label" for="content">Lettre de motivation (2000 caractères maximum)</label>
 				<textarea id="content" name="message" maxlength="1000" required></textarea>
-				<div class="cgu-label"><labe>En cliquant sur "Envoyer" vous confirmez avoir lu et approuver les <a href="/terms" class="underline-link"> Condition Générales d'Utilisation</a></label></div>
+				<div class="cgu-label"><labe>En cliquant sur "Envoyer" vous confirmez avoir lu et approuvé les <a href="/terms" class="underline-link"> Condition Générales d'Utilisation</a></label></div>
 				<input type="submit" id="send-button" value="Envoyer"/>
 			</form>
 		</main>
