@@ -1,6 +1,8 @@
 
-if (!window.localStorage.getItem("theme-scheme"))
-  window.localStorage.setItem("toogle-scheme", "light");
+if (!window.localStorage.getItem("theme-scheme")) {
+  window.localStorage.setItem("theme-scheme", "light");
+  toggleTheme();
+}
 
 document.documentElement.style.colorScheme =
   window.localStorage.getItem("theme-scheme");

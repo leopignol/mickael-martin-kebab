@@ -25,6 +25,11 @@ site-header {
       color: #FFF;
       margin: 0;
 
+      @media only screen and (max-aspect-ratio: 1 / 1) {
+        white-space: unset;
+        word-break: break-word;
+      }
+
       .emphased {
         text-emphasis: var(--title-emphasis);
       }

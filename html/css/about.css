@@ -416,6 +416,10 @@ main {
         border-radius: 1dvw;
         box-shadow: inset 5px 5px 5.7px #00000032;
 
+        @media only screen and (max-aspect-ratio: 1 / 1) {
+          padding: 4dvw;
+        }
+
         .star-container {
           position: absolute;
           display: flex;
@@ -426,7 +430,7 @@ main {
 
           @media only screen and (max-aspect-ratio: 1 / 1) {
             width: 30dvw;
-            transform: translateX(55dvw);
+            transform: translateX(52dvw);
           }
 
           img {
