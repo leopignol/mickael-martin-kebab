@@ -31,8 +31,6 @@ if (isset($expert_data->native_name)) {
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/chef.css">
 		<link rel="icon" href="/img/icons/favicon.svg" type="image/svg+xml">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	</head>
 
 	<body>
