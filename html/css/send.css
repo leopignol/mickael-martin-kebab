@@ -1,11 +1,12 @@
-body {
+#content {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
-a {
+.ok-link {
   display: inline-block;
   width: clamp(7rem, 9dvw, 12rem);
   cursor: pointer;
@@ -23,11 +24,11 @@ a {
   padding: 0.75rem 1.25rem;
 }
 
-a:hover {
+.ok-link:hover {
   filter: brightness(1.12);
   transform: translateY(-2px);
 }
 
-a:active {
+.ok-link:active {
   transform: translateY(0);
 }

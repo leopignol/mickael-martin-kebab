@@ -19,7 +19,7 @@
     }
     
 
-    $directory = __DIR__ . "/hiring-list";
+    $directory = "/home/kebab/hiring-messages";
 
     if (!is_dir($directory)) mkdir($directory, 0755, true);
 
@@ -33,13 +33,17 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/send.css">
+        <script src="/js/layout.js" defer></script>
+        <link rel="stylesheet" href="/css/send.css">
+        <link rel="stylesheet" href="/css/global.css">
     </head>
     <body>
-        <main>
+        <site-header></site-header>
+        <main id="content">
             <h1> Méssage envoyé ! </h1>
-            <a href="/"> Ok </a>
+            <a href="/" class="ok-link"> Ok </a>
         </main>
+        <site-footer></site-footer>
+        <script src="/js/theme-changer.js"></script>
     </body>
 </html>
