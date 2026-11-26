@@ -26,6 +26,10 @@ site-footer {
       text-align: center;
     }
 
+    .tiny {
+      font-size: 1rem;
+    }
+
     >*:not(#copyright) {
       width: 23dvw;
 

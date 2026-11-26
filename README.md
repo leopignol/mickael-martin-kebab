@@ -1,8 +1,18 @@
-# Mickaël Martin Kebab
+# S1 R1.02 – Mickaël Martin Kebab
 https://github.com/leopignol/mickael-martin-kebab
 
-* Disponible sur http://mickael-martin-kebab.site/
-* Avec un fallback *[Alwaysdata](https://www.alwaysdata.com/)* sur https://mickael-martin-kebab.alwaysdata.net/
+* Disponible en HHTP sur http://mickael-martin-kebab.site/
+  * Hébergé sur un Raspberry PI 5 4GB
+* Avec un fallback HTTPS *[Alwaysdata](https://www.alwaysdata.com/)* sur https://mickael-martin-kebab.alwaysdata.net/
+
+## Contact
+* LIAUTAUD Loevan: `loevan.liautaud@etu.univ-amu.fr`
+* PIGNOL Léo: `leo.pignol.1@etu.univ-amu.fr`
+* VINAS Lian: `lian.vinas@etu.univ-amu.fr`
+
+## Données
+* Sources: https://app.notion.com/p/424e07d7699180bf8c0bfa193fa08b07?v=424e07d7699180428482000c46074d3e
+* Historique des prompts: https://app.notion.com/p/Historique-des-prompts-423e07d7699180749b22ef68668b08b0
 
 ## Structure
 ```py
@@ -54,5 +64,4 @@ html/ # Répertoire accessible
   - index.html # Page principale de présentation
   - shop # "Achat", HTML sans extension
   - terms # "Conditions d'utilisation", HTML sans extension
-Makefile # Compacte le projet dans un .tar.xz
 ```
