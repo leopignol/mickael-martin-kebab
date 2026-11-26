@@ -1,32 +1,69 @@
-body {
-  background: var(--bg);
-}
-
 main {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 6vw, 6rem) 0;
 
-  #picture-holder {
-    position: relative;
-    text-align: center;
-  }
+  #chef-profile {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(1.5rem, 5vw, 5rem);
+    width: min(86%, 70rem);
+    padding: clamp(1.25rem, 4vw, 4rem);
+    background: var(--accent);
+    border-radius: 1rem;
+    box-shadow: inset 5px 5px 5.7px #00000032;
 
-  #picture-holder::after {
-    box-shadow: inset 0 -30dvw 50dvw 0 var(--bg);
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-  }
+    @media only screen and (max-aspect-ratio: 1 / 1) {
+      grid-template-columns: minmax(0, 1fr);
+      width: 82%;
+    }
 
-  #main-picture {
-    max-width: 100%;
-    width: auto;
+    #picture-holder {
+      min-width: 0;
+    }
+
+    #main-picture {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border: var(--part-image-border);
+      border-radius: var(--part-image-radius);
+      box-shadow: -0.5rem -0.5rem 0 var(--chef-color);
+    }
+
+    .profile-copy {
+      .profile-label {
+        color: var(--bg-text);
+        font-family: "Anton SC", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      h2 {
+        text-align: left;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        margin: 0.5rem 0 1.5rem;
+      }
+
+      .profile-description {
+        line-height: 1.7;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 1.25rem;
+        padding: 0.75rem 1rem;
+        background: var(--pill-color);
+        border-radius: var(--pill-radius);
+        box-shadow: var(--pill-shading);
+        color: var(--bg-text);
+        font-family: var(--pill-text-font);
+        font-style: var(--pill-text-style);
+        font-weight: bold;
+      }
+    }
   }
 }
