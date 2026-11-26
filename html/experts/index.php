@@ -30,8 +30,10 @@ if (isset($expert_data->native_name)) {
 		<meta name="description" content="Découvrez <?php echo $chef ?>, maître kebabier chez Mickaël Martin Kebab.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/global.css">
+		<link rel="stylesheet" href="/css/fonts.css">
 		<link rel="stylesheet" href="/css/chef.css">
 		<link rel="icon" href="/img/icons/favicon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
 	</head>
 
 	<body>
