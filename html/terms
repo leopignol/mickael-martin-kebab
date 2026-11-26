@@ -4,7 +4,28 @@
 		<script src="/js/layout.js" defer></script>
 		<title>Mickaël Martin Kebab – Conditions d'Utilisation</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Mickaël Martin Kebab">
+		<meta name="description" content="Mickaël Martin Kebab – Conditions d'utilisation">
+		<meta name="keywords"
+		      content="mickael, martin, kebab, mickael-martin, formation, kebabier, maitre"
+		>
+		<meta name="application-name" content="Mickaël Martin Kebab">
+		<meta name="subject"
+		      content="Mickaël Martin Kebab – Formations maître kebabiers – Conditions d'utilisation"
+		>
+		<meta name="language" content="FR">
+		<meta name="summary"
+		      content="Mickaël Martin Kebab – Formations maître kebabiers"
+		>
+		<meta name="classification" content="Business">
+		<meta name="author" content="LIAUTAUD Loevan, PIGNOL Léo, VINAS Lian">
+		<meta name="designer" content="VINAS Lian">
+		<meta name="reply-to" content="mickael-martin-kebab@mailo.com">
+		<meta name="owner" content="Mickaël Martin">
+		<meta name="url" content="https://mickael-martin-kebab.site">
+		<meta name="distribution" content="Global">
+		<meta name="rating" content="General">
+		<meta name="subtitle" content="Formations maître kebabier">
+		<meta name="target" content="all">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/fonts.css">
