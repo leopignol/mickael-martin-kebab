@@ -148,13 +148,4 @@ site-header {
       }
     }
   }
-
-  #header-image {
-    width: 100%;
-    position: absolute;
-    opacity: 0.2;
-    background-clip: padding-box;
-    visibility: var(--hidden-if-light);
-    z-index: -1;
-  }
 }
