@@ -99,6 +99,10 @@ main {
       @media only screen and (max-aspect-ratio: 1 / 1) {
         width: 90%;
       }
+
+      *:not(.buy-now) {
+        color: var(--black-if-dark);
+      }
     }
   }
 }

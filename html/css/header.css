@@ -70,6 +70,11 @@ site-header {
       top: 0;
       left: 0;
       cursor: pointer;
+      font-size: 0;
+
+      >* {
+        font-size: 1rem;
+      }
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
         visibility: visible;
@@ -92,6 +97,11 @@ site-header {
       display: block;
       width: 3dvw;
       height: 1.5dvw;
+      font-size: 0;
+
+      >* {
+        font-size: 1rem;
+      }
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
         width: 7.5dvw;

@@ -45,6 +45,8 @@
 
   --italic-if-light: italic;
   --italic-if-dark: unset;
+
+  --black-if-dark: unset;
 }
 
 :root[style*="color-scheme: dark"] {
@@ -79,6 +81,8 @@
 
   --italic-if-light: unset;
   --italic-if-dark: italic;
+
+  --black-if-dark: #000;
 }
 
 

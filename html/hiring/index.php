@@ -4,6 +4,7 @@
 		<title>Mickaël Martin Kebab – Recrutement</title>
 		<meta charset="utf-8">
 		<meta name="description" content="Mickaël Martin Kebab">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/hiring.css">
 		<link rel="icon" href="/img/icons/favicon.svg" type="image/svg+xml">
