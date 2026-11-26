@@ -15,6 +15,11 @@ customElements.define("site-header", class extends HTMLElement {
   async connectedCallback() {
     try {
       this.innerHTML = await headerPromise;
+
+      if (window.innerWidth / window.innerHeight <= 1) {
+        for (let pill of document.getElementsByClassName("pill"))
+          pill.hidden = true;
+      }
     } catch (err) {
       console.error(err);
     }
@@ -41,9 +46,9 @@ customElements.define("top-button", class extends HTMLElement {
   }
 });
 
-function togglePillVisibility() {
-  let pills = document.getElementsByClassName("pill");
+const pills = document.getElementsByClassName("pill");
 
+function togglePillVisibility() {
   for (let pill of pills)
     pill.hidden = !pill.hidden || false;
 }
