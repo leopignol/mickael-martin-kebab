@@ -10,8 +10,8 @@
   display: inline-block;
   width: clamp(7rem, 9dvw, 12rem);
   cursor: pointer;
-  background: var(--bg-text);
-  color: white;
+  background: var(--bg);
+  color: var(--text);
   font-weight: bold;
   box-shadow: 0 0.25dvw 0.6dvw #00000025;
   transition: filter 0.2s ease, transform 0.2s ease;

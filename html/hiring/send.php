@@ -34,19 +34,22 @@
 <html>
   <head>
   	<script src="/js/layout.js" defer></script>
-  	<title>Mickaël Martin Kebab – Page Name</title>
+  	<title>Mickaël Martin Kebab – Message Envoyé</title>
   	<meta charset="utf-8">
   	<meta name="description" content="Mickaël Martin Kebab">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="stylesheet" href="/css/global.css">
-  	<link rel="stylesheet" href="/css/<page-name>.css">
+  	<link rel="stylesheet" href="/css/send.css">
   	<link rel="icon" href="/img/icons/favicon.svg" type="image/svg+xml">
   	<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
   </head>
 	<body>
-  	<main>
-  		<h1>Message envoyé&nbsp;!</h1>
-  		<a href="/">Ok</a>
-  	</main>
+		<site-header></site-header>
+		<main id="content">
+			<h1>Message envoyé&nbsp;!</h1>
+			<a class="ok-link" href="/">Ok</a>
+		</main>
+		<site-footer></site-footer>
+		<script src="/js/theme-changer.js"></script>
 	</body>
 </html>
