@@ -2,8 +2,8 @@ let direction = 1;
 const speed = 1.5;
 let isPaused = false;
 
-sponsorContainer.addEventListener('mouseenter', () => isPaused = true);
-sponsorContainer.addEventListener('mouseleave', () => isPaused = false);
+sponsorContainer.addEventListener("mouseenter", () => isPaused = true);
+sponsorContainer.addEventListener("mouseleave", () => isPaused = false);
 
 function autoScroll() {
   if (!isPaused) {

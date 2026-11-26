@@ -1,15 +1,14 @@
 
-if (window.localStorage.getItem("theme-scheme")) {
-  document.documentElement.style.colorScheme =
-    window.localStorage.getItem("theme-scheme");
-  document.getElementById("toggle-theme")?.checked;
-}
+if (!window.localStorage.getItem("theme-scheme"))
+  window.localStorage.setItem("toogle-scheme", "light");
+
+document.documentElement.style.colorScheme =
+  window.localStorage.getItem("theme-scheme");
 
 function toggleTheme() {
   switch (
   document.documentElement.style.colorScheme ||
-  window.localStorage.getItem("theme-scheme") ||
-  "dark"
+  window.localStorage.getItem("theme-scheme")
   ) {
     case "light":
       changeTheme("dark");

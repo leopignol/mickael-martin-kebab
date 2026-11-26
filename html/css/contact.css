@@ -41,7 +41,7 @@ textarea,
   border-radius: 0.65dvw;
   background: var(--bg);
   color: var(--text);
-  font-family: 'Antic Didone', serif;
+  font-family: "Antic Didone", serif;
   font-size: 1.1dvw;
   box-shadow: inset 2px 2px 5px #00000018;
   outline: none;
