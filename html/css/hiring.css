@@ -59,6 +59,10 @@ select,
   grid-column: 1 / -1;
 }
 
+.cgu-label {
+  grid-column: 1 / -1;
+}
+
 .card-information {
   grid-column: 1 / -1;
   min-width: 0;
@@ -136,9 +140,9 @@ textarea:focus {
   padding: 0 0.25dvw;
 }
 
-.field input:focus + label,
-.field input:not(:placeholder-shown) + label,
-.field select + label {
+.field input:focus+label,
+.field input:not(:placeholder-shown)+label,
+.field select+label {
   top: 0.60dvw;
   font-size: 0.75dvw;
   color: var(--bg-text);
@@ -163,6 +167,10 @@ textarea:focus {
 
 #send-button:active {
   transform: translateY(0);
+}
+
+.underline-link {
+  text-decoration: underline;
 }
 
 @media (max-width: 700px) {
@@ -211,9 +219,9 @@ textarea:focus {
     left: 3dvw;
   }
 
-  .field input:focus + label,
-  .field input:not(:placeholder-shown) + label,
-  .field select + label {
+  .field input:focus+label,
+  .field input:not(:placeholder-shown)+label,
+  .field select+label {
     font-size: 2.5dvw;
     top: 1.5dvw;
   }

@@ -61,9 +61,9 @@
 
 				<div class="field training-field">
 					<select id="training" name="training" required>
-						<option value="simple" <?php if ($_GET["training"] === "simple") echo "selected"; ?>  >Simple</option>
-						<option value="pro" <?php if ($_GET["training"] === "pro") echo "selected"; ?> >Pro</option>
-						<option value="pro-max" <?php if ($_GET["training"] === "pro-ultra") echo "selected"; ?> >Pro Ultra</option>
+						<option value="simple"   >Simple</option>
+						<option value="pro"  >Pro</option>
+						<option value="pro-max"  >Pro Ultra</option>
 					</select>
 					<label for="training">Formation</label>
 				</div>
@@ -125,6 +125,7 @@
 
 				<label class="message-label" for="content">Lettre de motivation (2000 caractères maximum)</label>
 				<textarea id="content" name="message" maxlength="1000" required></textarea>
+				<div class="cgu-label"><labe>En cliquant sur "Envoyer" vous confirmez avoir lu et approuver les <a href="/terms" class="underline-link"> Condition Générales d'Utilisation</a></label></div>
 				<input type="submit" id="send-button" value="Envoyer"/>
 			</form>
 		</main>
