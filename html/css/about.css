@@ -14,6 +14,7 @@ main {
     .flame {
       width: 50%;
       visibility: var(--hidden-if-light);
+      aspect-ratio: 356 / 108;
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
         width: 100%;
