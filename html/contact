@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<script src="/js/layout.js" defer></script>
@@ -13,6 +14,7 @@
 	</head>
 	<body>
 		<site-header></site-header>
+
 		<main>
 			<form id="contact-form" action="send.php" method="post">
 				<label id="title">Contactez Nous</label>
@@ -38,10 +40,18 @@
 
 				<label class="message-label" for="content">Message (1000 caractères maximum)</label>
 				<textarea id="content" name="message" maxlength="1000" required></textarea>
+				<a id="send-mail-button"
+				   href="mailto:mickael-martin-kebab@mailo.com"
+				>
+					Envoyer par mail
+				</a>
 				<input type="submit" id="send-button" value="Envoyer">
 			</form>
 		</main>
+
 		<site-footer></site-footer>
+
+		<script src="/js/contact.js"></script>
 		<script src="/js/theme-changer.js"></script>
 	</body>
 </html>

@@ -5,7 +5,6 @@ main {
   justify-content: center;
   padding: 3dvw;
   box-sizing: border-box;
-
 }
 
 form {
@@ -34,6 +33,7 @@ input {
 
 input,
 textarea,
+#send-mail-button,
 #send-button {
   width: 100%;
   box-sizing: border-box;
@@ -48,6 +48,7 @@ textarea,
 }
 
 input,
+#send-mail-button,
 #send-button {
   height: 3.25dvw;
   padding: 0 1dvw;
@@ -78,6 +79,7 @@ textarea:focus {
   margin-bottom: 0;
 }
 
+#send-mail-button,
 #send-button {
   grid-column: 1 / -1;
   justify-self: end;
@@ -87,14 +89,26 @@ textarea:focus {
   color: white;
   font-weight: bold;
   box-shadow: 0 0.25dvw 0.6dvw #00000025;
-  transition: filter 0.2s ease, transform 0.2s ease, width 0.2s ease;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease,
+    width 0.2s ease;
 }
 
+#send-mail-button {
+  width: 13dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#send-mail-button:hover,
 #send-button:hover {
   filter: brightness(1.12);
   transform: translateY(-2px);
 }
 
+#send-mail-button:active,
 #send-button:active {
   transform: translateY(0);
 }
@@ -152,6 +166,7 @@ textarea:focus {
 
   input,
   textarea,
+  #send-mail-button,
   #send-button,
   .field input,
   .message-label,
@@ -160,6 +175,7 @@ textarea:focus {
   }
 
   input,
+  #send-mail-button,
   #send-button,
   .field input {
     height: 10dvw;
@@ -185,6 +201,7 @@ textarea:focus {
     border-radius: 2dvw;
   }
 
+  #send-mail-button,
   #send-button {
     width: 100%;
     border-radius: 2dvw;
