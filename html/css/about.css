@@ -29,7 +29,7 @@ main {
       transform: translateY(-0.2dvw) translateX(100%) rotate(180deg);
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
-        transform: unset;
+        transform: translateY(-0.2dvw) rotate(180deg);
       }
     }
 
@@ -81,17 +81,12 @@ main {
       margin-bottom: 2.5dvw;
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
-        flex-direction: column;
         margin-bottom: 5dvw;
       }
     }
 
     .part.bottom {
       margin-top: 1.25dvw;
-
-      @media only screen and (max-aspect-ratio: 1 / 1) {
-        flex-direction: column-reverse;
-      }
     }
   }
 
@@ -99,7 +94,7 @@ main {
     width: 70%;
 
     @media only screen and (max-aspect-ratio: 1 / 1) {
-      width: 100%;
+      width: 80%;
     }
 
     #formation {
@@ -108,8 +103,8 @@ main {
       justify-content: center;
 
       @media only screen and (max-aspect-ratio: 1 / 1) {
-        grid-template-rows: repeat(3, minmax(0, 1fr));
-        grid-template-columns: unset;
+        display: flex;
+        flex-direction: column;
       }
 
       >div {
@@ -142,7 +137,6 @@ main {
             display: flex;
             gap: 1dvw;
             justify-content: center;
-            /*font-size: 1.5dvw;*/
             list-style: none;
             text-align: center;
             cursor: pointer;
@@ -156,7 +150,6 @@ main {
             content: "▶";
             display: inline-block;
             visibility: hidden;
-            /*font-size: 1dvw;*/
             margin-left: 1dvw;
           }
 
@@ -165,7 +158,6 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
-            /*font-size: 1dvw;*/
             rotate: -180deg;
             transition: rotate 0.35s ease;
             margin-right: 1dvw;
@@ -173,7 +165,6 @@ main {
 
           p {
             text-align: center;
-            /*font-size: 1.2dvw;*/
             margin: 0;
             padding: 1dvw 0;
           }
@@ -297,7 +288,6 @@ main {
         .country {
           font-family: "Anton SC", sans-serif;
           font-weight: bold;
-          /*font-size: 2.5dvw;*/
           text-transform: uppercase;
         }
       }
@@ -414,7 +404,6 @@ main {
       }
 
       .review {
-        height: 9rem;
         display: flex;
         flex-direction: column;
         padding: 2dvw;
@@ -457,7 +446,6 @@ main {
         .occupation {
           margin-bottom: 1dvw;
           color: var(--occupation-text-color);
-          /*font-size: 1.5dvw;*/
         }
 
         .comment {
@@ -466,7 +454,7 @@ main {
           align-items: center;
           text-transform: uppercase;
           font-family: var(--comment-font);
-          /*font-size: 2dvw;*/
+          font-size: 2rem;
         }
       }
     }

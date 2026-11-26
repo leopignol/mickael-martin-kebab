@@ -3,7 +3,6 @@ site-header {
   min-height: 5dvw;
 
   header {
-    /*height: 5dvw;*/
     height: auto;
     background-color: var(--borders);
     display: flex;
@@ -48,7 +47,6 @@ site-header {
         width: 100%;
         height: 100%;
         font-family: var(--pill-text-font);
-        /*font-size: 1dvw;*/
         color: var(--bg-text);
         font-weight: bold;
         justify-content: center;
