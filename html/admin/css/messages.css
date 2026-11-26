@@ -1,0 +1,72 @@
+.messages-panel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.messages-panel h1 {
+    margin-top: 0;
+}
+
+.messages-list {
+    display: grid;
+    gap: 16px;
+}
+
+.message-card {
+    padding: 20px;
+    border: 1px solid var(--umber);
+    border-radius: 14px;
+    background: var(--bark);
+    box-shadow: 0 0 6px #00000069;
+}
+
+.message-card-heading h2 {
+    margin: 0 0 14px;
+    font-size: 19px;
+}
+
+.message-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px 20px;
+    margin: 0;
+}
+
+.message-details div {
+    min-width: 0;
+}
+
+.message-details dt {
+    color: #d0c4b3;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.message-details dd {
+    margin: 2px 0 0;
+    overflow-wrap: anywhere;
+}
+
+.payment-note,
+.messages-empty {
+    color: #d0c4b3;
+    font-size: 13px;
+}
+
+.message-card h3 {
+    margin: 18px 0 6px;
+    font-size: 15px;
+}
+
+.message-body {
+    margin: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.messages-error {
+    padding: 10px 12px;
+    border: 1px solid #d58823;
+    border-radius: 8px;
+    background: #211f1d;
+}

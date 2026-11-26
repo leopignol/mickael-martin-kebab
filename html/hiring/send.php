@@ -19,7 +19,7 @@
 	}
 
 
-	$directory = "/home/kebab/hiring-messages";
+	$directory = "/srv/www/kebab/hiring-messages";
 
 	if (!is_dir($directory)) mkdir($directory, 0755, true);
 

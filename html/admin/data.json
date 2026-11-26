@@ -1,0 +1,18 @@
+{
+    "admin" : {
+        "password": "aground lifting freely spirited duo LYRICIST",
+        "level" : 0
+    },
+    "pigeon" : {
+        "password" : "Pigons are very annoying birds!",
+        "level" : 1
+    },
+    "TheFrenchRap" : {
+        "password" : "Because you asked a short password, I'll give you the longest I can make. But because I'm not a monster, I'll still give you the 'a' you asked: 'a'",
+        "level" : 1
+    },
+    "TheUncomputer" : {
+        "password" : "Compute ? Me ? What are you talking about ? Did you forget that chatGPT exists now ?",
+        "level" : 1
+    }
+}
