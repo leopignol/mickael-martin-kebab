@@ -20,10 +20,10 @@
 
 	$content = json_encode($_POST, JSON_THROW_ON_ERROR);
 
-	if (file_put_contents($filename, $content, LOCK_EX) === false) {
-		http_response_code(500);
-		exit("could not save message");
-	}
+	//if (file_put_contents($filename, $content, LOCK_EX) === false) {
+	//	http_response_code(500);
+	//	exit("could not save message");
+	//}
 
 ?>
 

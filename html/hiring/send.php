@@ -27,7 +27,7 @@
 
 	$content = json_encode($_POST);
 
-	file_put_contents($filename, $content);
+	// file_put_contents($filename, $content);
 
 ?>
 
