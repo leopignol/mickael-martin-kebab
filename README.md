@@ -1,9 +1,9 @@
 # S1 R1.02 – Mickaël Martin Kebab
 https://github.com/leopignol/mickael-martin-kebab
 
-* Disponible en HTTP sur http://mickael-martin-kebab.site/
+* Disponible sur https://mickael-martin-kebab.site/
   * Hébergé sur un Raspberry PI 5 4GB
-* Avec un fallback HTTPS *[Alwaysdata](https://www.alwaysdata.com/)* sur https://mickael-martin-kebab.alwaysdata.net/
+* Avec un fallback *[Alwaysdata](https://www.alwaysdata.com/)* sur https://mickael-martin-kebab.alwaysdata.net/
 
 ## Contact
 * LIAUTAUD Loevan: `loevan.liautaud@etu.univ-amu.fr`
