@@ -14,7 +14,7 @@
 		exit("missing form informations");
 	}
 
-	$directory = "/home/kebab/support-agent/pending"; // this folders exists
+	$directory = "/srv/www/kebab/agent/pending";
 
 	$filename = $directory . "/message-" . date("Y-m-d-H") . "-" . uniqid() . ".msg";
 
